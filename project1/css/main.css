@@ -1,0 +1,42 @@
+/* start my personal theme */
+body{
+    background-image: url(../images/body.jpg);
+    background-size: 100% 100%;
+    height: 59vh;
+}
+/* end my personal theme */
+
+/* start section big-content */
+.big-content{
+    margin-top: 160px;
+}
+
+.big-content .right{
+    color: #fff;
+}
+.big-content .right img{
+    max-width: 20%;
+}
+
+.big-content .right h2{
+    margin: 15px 0px;
+    background: linear-gradient(to right, red, blue, green);
+    border-radius: 50px;
+}
+
+.big-content .right input{
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.big-content .right button{
+    background-color: #49d849;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+/* end section big-content */
