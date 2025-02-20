@@ -1,0 +1,15 @@
+/* background variable */
+$background: true;
+
+.discount{
+    overflow: hidden;
+    @if $background == true {
+    background-color: $milky-color;
+  } @else {
+    background-color: $mover-color;
+  }
+  .left button{
+    background-color: $gold-color;
+    border: none;
+  }
+}

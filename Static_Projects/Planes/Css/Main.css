@@ -1,0 +1,455 @@
+/* start personal theme */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.h1{
+    font-size: 2em;
+}
+
+::selection{
+    background-color: black;
+    color: yellow;
+}
+
+:root{
+    --border-raduis: 5px;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+/* end personal theme */
+
+/* start header */
+
+header{
+    background-color: black;
+    padding: 10px;
+    box-shadow: 2px 2px 4px 4px #777777;
+}
+
+header .container{
+    display: flex;
+}
+
+header .container .logo{
+    width: 70%;
+}
+
+header .container .logo h1{
+    color: purple;
+    padding: 6px;
+    border-radius: 3px;
+    text-shadow: 2px 2px 2px purple;
+}
+
+header .container nav{
+    width: 30%;
+}
+
+header .container nav ul{
+    color: purple;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+header .container nav ul li{
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+header .container nav ul li:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+/* start media for header */
+
+@media (max-width: 767px) {                                           /* mobile and tablet screen rules */
+    header .container{
+        flex-wrap: wrap;
+    }
+
+    header .container .logo{
+        width: 100%;
+        text-align: center;
+    }
+
+    header .container nav{
+        width: 100%;
+        text-align: center;
+    }    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {                   /* small screen rules */
+    header .container .logo{
+        width: 60%;
+    }
+
+    header .container nav{
+        width: 40%;
+    }    
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {                  /* meduim screen rules */
+    header .container .logo{
+        width: 60%;
+    }
+
+    header .container nav{
+        width: 40%;
+    }    
+}
+
+/* end media for header */
+/* end header */
+
+/* start section bar */
+
+.bar{
+    background-color: red;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px 4px red;
+}
+
+.bar .container nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+.bar .container nav ul li{
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 23px;
+    text-shadow: 2px 2px 2px purple;
+}
+
+.bar .container nav ul li:hover{
+    background-color: black;
+    border-radius: 3px;
+}
+
+/* end section bar */
+
+/* start our-service */
+
+.our-service{
+    margin-top: 30px;
+}
+
+.our-service .container{
+    display: flex;
+    flex-direction: row;
+}
+
+.our-service .container .box{
+    width: 33.33333%;
+    margin-right: 1%;
+    background-color: saddlebrown;
+    padding: 13px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+.our-service .container .box:hover{
+    background-color: black;
+    margin-top: 10px;
+}
+
+/* end our-service */
+
+/* start media for section our-service */
+
+@media (max-width: 767px) {                                /* mobile and tablet screen rules */
+    .our-service .container{
+        flex-wrap: wrap;
+    }
+
+    .our-service .container .box{
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {         /* small screen rules */
+    .our-service .container{
+        flex-wrap: wrap;
+    }
+
+    .our-service .container .box{
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {         /* meduim screen rules */
+    .our-service .container{
+        flex-wrap: nowrap;
+    }
+
+    .our-service .container .box{
+        width: 33.33333%;
+        margin-left: 1%;
+        margin-bottom: 20px;
+    }
+}
+
+/* end media for section our-service */
+/* end media for section our-service */
+
+/* start section model */
+
+hr{
+    margin: 40px 80px 0px 80px; 
+}
+
+.model{
+    padding: 30px;
+}
+
+.model .container{
+    padding: 10px;
+    display: flex;
+}
+
+.model .container .box1 .h1{
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px chocolate;
+    margin-bottom: 20px;
+}
+
+.model .container .box1 p{
+    line-height: 1.4;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.model .container .box1 p:hover{
+    margin-left: 5px;
+}
+
+.model .container .box2{
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.model .container .box2:hover{
+    margin-top: 20px;
+}
+
+/* start media for section model */
+
+@media (max-width: 767px) {                                           /* mobile and tablet screen rules */
+    .model .container{
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+
+    .model .container .box1 .h1{
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .model .container .box1 p{
+        font-size: 14px;
+    }
+
+    .model .container .box2 img{
+        width: 100%;
+    }
+}
+
+/* start media for section model */
+
+@media (min-width: 768px) and (max-width: 991px) {                     /* small screen rules */
+    .model .container{
+        padding: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .model .container .box1 .h1{
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .model .container .box1 p{
+        font-size: 14px;
+    }
+
+    .model .container .box2 img{
+        width: 100%;
+    }
+}
+
+/* end media for section model */
+/* end section model */
+
+/* start section planer */
+
+    .planer{
+        margin-top: 40px;
+    }
+
+    .planer .container{
+        display: flex;
+    }
+
+    .planer .container .box.one{
+        margin-right: 20px;
+        width: 30%;
+    }
+
+    .planer .container .box.one .h1{
+        margin-bottom: 10px;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .planer .container .box.one p{
+        font-size: 15px;
+    }
+
+    .planer .container .box.one button{
+        background-color: #00b8ff;
+        color: #fff;
+        padding: 5px 10px;
+        font-size: 16px;
+        border-radius: 12px;
+        border: 1px solid cyan;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .planer .container .box.two{
+        width: 30%;
+    }
+
+    .planer .container .box.two img{
+        width: 100%;
+    }
+
+    .planer .container .box.three{
+        background-color: #222e58;
+        max-height: 200px;
+        margin-left: 10px;
+        width: 30%;
+        padding: 10px;
+    }
+
+    .planer .container .box.three p{
+        color:#fff; 
+    }
+
+    .planer .container .box.three h3{
+        margin-top: 10px;
+        color: orangered; 
+    }
+
+/* start media for section planer */
+
+    @media (max-width: 767px) {                                /* mobile and tablet screen rules */
+        .planer .container{
+            flex-wrap: wrap;
+        }
+
+        .planer .container .box.one{
+            width: 100%;
+            text-align: center;
+        }
+
+        .planer .container .box.two{
+            width: 100%;
+            text-align: center;
+        }
+
+        .planer .container .box.three{
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {          /* small and tablet screen rules */
+        .planer .container{
+            flex-wrap: wrap;
+        }
+
+        .planer .container .box.one{
+            width: 100%;
+            text-align: center;
+        }
+
+        .planer .container .box.two{
+            width: 100%;
+            text-align: center;
+        }
+
+        .planer .container .box.three{
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {          /* meduim screen rules */
+        .planer .container{
+            flex-wrap: nowrap;
+        }
+    }
+
+
+/* end media for section planer */
+/* end section planer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,159 @@
+/* start personal theme */
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    margin: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* end personal theme */
+/* start new div */
+
+header{
+    background-color: yellow;
+    padding: 48px 0px 7px 0px;
+}
+
+header .black{
+    background-color: #313131;
+    padding: 4px;
+}
+
+.black h3{
+    font-size: 28px;
+    color: #fff;
+    
+}
+
+
+.black i{
+    font-size: 32px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%; 
+}
+
+.black button{
+    background-color: yellow;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 9px;
+    width: 107px;
+    cursor: pointer;
+}
+
+
+/* media for this div */
+
+
+@media (max-width: 767px){
+    .first{
+        text-align: center;
+    }
+}
+
+.navbar li{
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: .7s;
+    cursor: pointer;
+}
+
+.navbar li:hover{
+    transform: scale(1.2);
+    color: azure;
+}
+
+.navbar input{
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+/* media for this div */
+
+@media(max-width: 767px){
+    .navbar{
+        text-align: center;
+    }
+    
+    .navbar li{
+        margin-top: 6px;
+    }
+}
+
+
+/* start new div ////////////// */
+
+section{
+    background-image: url(../images/images.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 51vh; 
+}
+
+section .middle{
+    text-align: center;
+    margin-top: 50px;
+}
+
+section .middle h1{
+    color: #fff;
+    font-size: 42px;
+}
+
+section .middle button{
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 9px;
+    color: #fff;
+    background: none;
+    border: 2px solid #fff;
+    width: 113px;
+    cursor: pointer;
+}
+
+section .middle button:hover{
+    background-color: red;
+    transition: .7s;
+    border: 1px solid red;
+    transform: scale(1.2);
+}
+
+
+.last .oney{
+    background-color: yellow;
+    padding: 20px 20px;
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 41px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.last .oney:hover{
+    background-color: blue;
+    transition: .7s;
+    color: #fff;
+}
+
+/* media for this div */
+
+@media(max-width: 767px){
+    .last .oney{
+        margin-left: 41px;
+    }
+}
+
+
+
+

@@ -1,0 +1,106 @@
+/* start personal theme */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Tahoma;
+}
+/* end personal theme */
+/* start section fform */
+
+.fform{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid #fff;
+    padding: 20px;
+    background-color: #b9b28f;
+    border-radius: 6%;
+}
+
+.fform form{
+    text-align: center;
+    padding: 25px;
+}
+
+.fform form i{
+    background-color: #90909054;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.fform form h1{
+    color: blue;
+    font-size: 25px;
+    background-color: #90909054;
+    padding: 6px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
+
+.fform form h1 span{
+    color: #fff;
+}
+
+.fform form p{
+    color: blue;
+    font-size: 19px;
+}
+
+.fform form p span{
+    color: rgb(89, 89, 163);
+}
+
+.fform form input{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 53px;
+    border: 1px solid #b9b28f;
+    border-radius: 10px;
+    background-color: #d2ccb2;
+}
+
+.fform form p[class="f"]{
+    color: #dedac7;
+    text-align: end;
+    font-size: 13px;
+    text-decoration: underline;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.fform form input[class="line2"]{
+    display: inline-block;
+    border: none;
+    background-color: #2f7fc3;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

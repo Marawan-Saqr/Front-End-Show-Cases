@@ -1,0 +1,28 @@
+.books{
+  .row{
+    background-color: $black-white-color;
+    padding: 40px;
+    border-radius: 82px 82px 0px 0px;
+    color: $white-color;
+  }
+  .box{
+    transition: all 0.5s;
+    padding: 10px;
+    img{
+      max-width: 50%;
+    }
+    h5{
+      font-size: 15px;
+    }
+    p{
+      font-size: 12px;
+    }
+    &:hover{
+      background-color: $black-color;
+      transition: all 0.5s;
+      transform: scale(1.1, 1.1);
+      cursor: pointer;
+    }
+  }
+}
+

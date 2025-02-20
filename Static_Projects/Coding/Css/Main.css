@@ -1,0 +1,1081 @@
+/* start personal theme */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial, tahoma, sans-serif;
+    background-color: #333;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.h1{
+    font-size: 2em;
+}
+
+.clear{
+    clear: both;
+}
+
+::selection{
+    background-color: rgb(211, 35, 64);
+    color: #fff;
+}
+
+:root{
+    --Border-Raduis: 3px;
+}
+/* end personal theme */
+
+/* start header */
+header{
+    background-color: #2b2b2b;
+    border-bottom: 1px solid #232323;
+}
+
+header .container{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+}
+
+header .container .logo h1{
+    color: #fff;
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+header .container .nav ul{
+    color: #fff;
+    font-size: 15px;
+}
+
+header .container .nav ul li{
+    display: inline-block;
+    cursor: pointer;
+}
+
+header .container .nav ul li:hover{
+    color:rgb(211, 35, 64);
+    transform: scale(1.2);
+    transition-duration: .8s;
+}
+
+header .container .nav ul li:not(:last-of-type){
+    margin-right: 15px;
+}
+
+/* start media for header */
+@media (max-width: 767px) {                             /* mobile and tablet rules */
+    header .container{
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+    }
+
+    header .container .logo h1{
+        font-size: 20px;
+    }
+
+    header .container .nav i{
+        color: #fff;
+        cursor: pointer;
+        background-color: #7d7d7d42;
+        padding: 7px;
+    }
+}
+/* end media for header */
+/* end header */
+
+/* start section main */
+.main{
+    margin: 70px 0px;
+}
+
+.main .container{
+   display: grid;
+   grid-template-columns: repeat(10, 1fr);
+   grid-template-areas: "left left left . . right right right right right";
+   align-items: center;
+}
+
+.main .container .left{
+    grid-area: left;
+}
+
+.main .container .left .h1{
+    color: cyan;
+    margin: 13px 0px;
+}
+
+.main .container .left .h1 span{
+    color: rgb(211, 35, 64);
+    border-bottom: 1px solid gainsboro;
+}
+
+.main .container .left p{
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 13px;
+}
+
+.main .container .left button{
+    color: #fff;
+    background-color: cyan;
+    border: none;
+    border-radius: 19px;
+    padding: 6px 19px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+.main .container .right{
+    grid-area: right;
+}
+
+.main .container .right img{
+    width: 60%;
+    border-radius: 10%;
+    margin-left: 25px;
+    border: 2px solid #000;
+}
+/* start media for section main */
+@media (max-width: 767px) {                                     /* moble and tblet rules */
+    .main{
+        margin: 30px 0px;
+    }
+
+    .main .container{
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-areas:
+         "left left left left left left left left left left"
+         "right right right right right right right right right right";
+        align-items: center;
+     }
+
+     .main .container .left{
+        text-align: center;
+    }
+
+    .main .container .right{
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .main .container .right img{
+        margin-left: 0px;
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {                  /* small screen rules */
+    .main{
+        margin: 30px 0px;
+    }
+
+    .main .container{
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-areas:
+         "left left left left left left left left left left"
+         "right right right right right right right right right right";
+        align-items: center;
+     }
+
+     .main .container .left{
+        text-align: center;
+    }
+
+    .main .container .right{
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .main .container .right img{
+        margin-left: 0px;
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {                  /* meduim screen rules */
+    .main{
+        margin: 70px 0px;
+    }
+    
+    .main .container{
+       display: grid;
+       grid-template-columns: repeat(10, 1fr);
+       grid-template-areas: "left left left left . right right right right right";
+       align-items: center;
+    }
+    
+    .main .container .left{
+        grid-area: left;
+    }
+}
+/* end media for section main */
+/* end section main */
+
+/* start section services */
+.services .h1{
+    color: #fff;
+    font-size: 27px;
+}
+
+.services h2 span{
+    border-bottom: 1px solid cyan;
+}
+
+.services .container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-areas: "one one one two two two three three three";
+    column-gap: 20px;
+}
+
+.services .container .box{
+    background-color: #3c3c3c;
+    padding: 20px;
+    margin: 40px 0px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.services .container .box:hover{
+    transform: scale(1.1) rotate(1.4deg);
+    transition-duration: .8s;
+    background-color: black;
+}
+
+.services .container .box i{
+    color: cyan;
+}
+
+.services .container .box h3{
+    color: #fff;
+    margin: 9px 0px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.services .container .box p{
+    color: #fff;
+    margin: 9px 0px;
+    font-size: 11px;
+}
+
+.services .container .box.one{
+    grid-area: one;
+}
+
+.services .container .box.two{
+    grid-area: two;
+}
+
+.services .container .box.three{
+    grid-area: three;
+}
+/* start media for section services */
+@media (max-width: 767px) {                                             /* mobile and tablet rules */
+    .services .h1{
+        color: #fff;
+        font-size: 23px;
+    }
+
+    .services .container{
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-areas: 
+            ". one one one one one one one one"
+            ". two two two two two two two two"
+            ". three three three three three three three three";
+    }
+
+    .services .container .box{
+        margin: 10px 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {                      /* small screen rules */
+    .services .h1{
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .services .container{
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-areas: 
+            ". one one one one one one one one ."
+            "two two two two two three three three three three";
+    }
+
+    .services .container .box{
+        margin: 10px 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {                     /* meduim screen rules */
+    .services .h1{
+        color: #fff;
+        font-size: 27px;
+    }
+    
+    .services h2 span{
+        border-bottom: 1px solid cyan;
+    }
+    
+    .services .container{
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-areas: "one one one two two two three three three";
+        column-gap: 20px;
+    }
+    
+    .services .container .box{
+        margin: 40px 0px;
+    }
+}
+/* end media for section services */
+/* end section services */
+
+/* start section courses */
+.courses .h1{
+    color: #fff;
+    margin: 40px 0px;
+}
+
+.courses h2 span{
+    color: cyan;
+    border-bottom: 1px solid cyan;
+}
+
+.courses .container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: "one one one two two two three three three four four four";
+    column-gap: 18px;
+}
+
+.courses .container .box{
+    position: relative;
+    cursor: pointer;
+}
+
+.courses .container .box:hover{
+    transform: skew(10deg, 10deg);
+    transition-duration: 1.1s;
+}
+
+.courses .container .box:before{
+    content: "$125";
+    background-color: #333;
+    color: cyan;
+    font-size: 13px;
+    padding: 3px;
+    border-radius: 4px;
+    margin: 5px;
+    position: absolute;
+}
+
+.courses .container .box h4{
+    color: darkgrey;
+    font-size: 12px;
+    padding: 10px 10px;
+    float: left;
+}
+
+.courses .container .box i{
+    color: #ff6a00;
+    float: right;
+    padding: 9px 0px;
+}
+
+.courses .container .box p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 0px 10px;
+}
+
+.courses .container .box.one{
+    grid-area: one;
+}
+
+.courses .container .box.two{
+    grid-area: two;
+}
+
+.courses .container .box.three{
+    grid-area: three;
+}
+
+.courses .container .box.four{
+    grid-area: four;
+}
+
+.courses .container .box img{
+    width: 100%;
+}
+
+/* start media for section courses */
+@media (max-width: 767px) {                                              /* mobile and tablet rules */
+    .courses .h1{
+        font-size: 23px;
+    }
+
+    .courses .container{
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-areas: 
+            ". one one one one one one one one ."
+            ". two two two two two two two two ."
+            ". three three three three three three three three ."
+            ". four four four four four four four four .";
+    }
+
+    .courses .container .box{
+        margin: 20px 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {                        /* small screen rules */
+    .courses .h1{
+        font-size: 25px;
+    }
+
+    .courses .container{
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-areas: 
+            "one one one one one two two two two two"
+            "three three three three three four four four four four";
+    }
+
+    .courses .container .box{
+        margin: 20px 0px;
+    }
+}
+/* end media for section courses */
+/* end section courses */
+
+/* start section acheivments */
+.acheivments{
+    margin: 40px 0px;
+}
+
+.acheivments .h1{
+    color: #fff;
+}
+
+.acheivments .h1 span{
+    color: #d8d8d8;
+    border-bottom: 1px solid cyan;
+}
+
+.acheivments .container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-areas: "left left left left . right right right right";
+    align-items: center;
+}
+
+.acheivments .container .left{
+    margin: 20px 0px;
+    grid-area: left;
+}
+
+.acheivments .container .left img{
+    width: 100%;
+}
+
+.acheivments .container .right{
+    margin: 20px 0px;
+    grid-area: right;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 20px;
+}
+
+.acheivments .container .right .one .top{
+    color: #fff;
+    background-color: #ff7100;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.acheivments .container .right .one .bottom{
+    color: #fff;
+    background-color: cyan;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.acheivments .container .right .two .top{
+    color: #fff;
+    background-color: rgb(255, 0, 128);
+    padding: 20px;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.acheivments .container .right .two .bottom{
+    color: #fff;
+    background-color: rgb(55, 56, 56);
+    padding: 20px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* start media for section acheivments */
+@media (max-width: 767px) {                                     /* mobile and tablet rules */
+    .acheivments .h1{
+        font-size: 23px;
+    }
+    
+    .acheivments .container{
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-areas: 
+            "left left left left left left left left left left"
+            "right right right right right right right right right right";
+    }
+
+    .acheivments .container .right{
+        grid-area: right;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {              /* small screen rules */
+    .acheivments .h1{
+        font-size: 23px;
+    }
+    
+    .acheivments .container{
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-areas: 
+            "left left left left left left left left left left"
+            "right right right right right right right right right right";
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {             /* meduim screen rules */
+    .acheivments .h1{
+        font-size: 27px;
+    }
+    
+    .acheivments .container{
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-areas: "left left left left . right right right right";
+        align-items: center;
+    }
+}
+/* end media for section acheivments */
+/* end section acheivments */
+
+/* start section students */
+.students .h1{
+    color: #fff;
+}
+
+.students .h1 span{
+    position: relative;
+    color: #a9a9a9;
+}
+
+.students .h1 span:after{
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid cyan;
+    bottom: 1px;
+    width: 100%;
+    top: 4px;
+    height: 100%;
+    right: 0px;
+    transform: skewy(5deg);
+}
+
+.students .container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-areas: 
+        "one one one one one two two two two two"
+        "three three three three three four four four four four";
+}
+
+.students .container .box{
+    margin: 25px 0px;
+}
+
+.students .container .box img{
+    width: 12%;
+    border-radius: 50%;
+    border: 2px solid #c1c1c1;
+    margin: 10px 0px;
+}
+
+.students .container .box p{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.students .container .box h3{
+    color: cyan;
+    font-size: 14px;
+    margin-bottom: 7px;
+    font-style: italic;
+}
+
+.students .container .box.one{
+    grid-area: one;
+}
+
+.students .container .box.two{
+    grid-area: two;
+}
+
+.students .container .box.three{
+    grid-area: three;
+}
+
+.students .container .box.four{
+    grid-area: four;
+}
+
+/* start media for section students */
+@media (max-width: 767px) {                                       /* mobile and tablet screen rules */
+    .students .h1{
+        font-size: 23px;
+    }
+
+    .students .container{
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-areas: 
+            "one one one one one one one one one one"
+            "two two two two two two two two two two"
+            "three three three three three three three three three three"
+            "four four four four four four four four four four";
+    }
+
+    .students .container .box{
+        text-align: center;
+    }
+
+    .students .container .box img{
+        width: 35%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {                /* small screen rules */
+    .students .h1{
+        font-size: 25px;
+    }
+
+    .students .container{
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-areas: 
+            "one one one one one one one one one one"
+            "two two two two two two two two two two"
+            "three three three three three three three three three three"
+            "four four four four four four four four four four";
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {               /* meduim screen rules */
+    .students .h1{
+        font-size: 27px;
+    }
+
+    .students .container{
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-areas: 
+            "one one one one one two two two two two"
+            "three three three three three four four four four four";
+    }
+}
+/* end media for section students */
+/* end section students */
+
+/* start section form */
+.form{
+    margin: 40px 0px;
+}
+
+.form .h1{
+    color: #fff;
+}
+
+.form .h1 span{
+    border-bottom: 1px solid cyan;
+}
+
+.form .container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-areas: ". left left left left . right right right right";
+    align-items: center;
+}
+
+.form .container .left, .right{
+    margin-top: 60px;
+}
+
+.form .container .left{
+    grid-area: left;
+}
+
+.form .container .left img{
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 8px 8px 3px 3px #212121;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.form .container .left img:hover{
+    transform: rotate3d(10, 10, 4, 90deg);
+    transition-duration: 1s;
+}
+
+.form .container .right{
+    grid-area: right;
+}
+
+.form .container .right form{
+    background-color: #252525;
+    padding: 3px 18px;
+    border-radius: 5px;
+    width: 75%;
+    box-shadow: 8px 8px 6px 1px #212121;
+}
+
+.form .container .right form input{
+    display: block;
+    margin: 20px 1px;
+    border-radius: 19px;
+    border: none;
+    outline: none;
+    padding: 10px 9px;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    font-style: italic;
+}
+
+.form .container .right form input[class="but"]{
+    background-color: cyan;
+    cursor: pointer;
+    font-style: normal;
+}
+
+.form .container .right form textarea{
+    display: block;
+    margin: 20px 1px;
+    border-radius: 19px;
+    border: none;
+    outline: none;
+    padding: 10px 9px;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    font-style: italic;
+}
+/* start media for section form */
+@media (max-width: 767px) {                                          /* mobile and tablet screen rules */
+    .form .h1{
+        font-size: 23px;
+    }
+
+    .form .container{
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-areas: 
+            "left left left left left left left left left left"
+            "right right right right right right right right right right";
+    }
+
+    .form .container .left{
+        grid-area: left;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {                    /* small screen rules */
+    .form .h1{
+        font-size: 23px;
+    }
+
+    .form .container{
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-areas: 
+            "left left left left left left left left left left"
+            "right right right right right right right right right right";
+    }
+
+    .form .container .left{
+        grid-area: left;
+        text-align: center;
+    }
+}
+/* end media for section form */
+/* end section form */
+
+/* start section footer */
+.footer{
+    margin: 30px 0px;
+    background-color: #1f1f1f;
+    padding: 20px 0px;
+    color: #fff;
+}
+
+.footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.footer .container .one h3{
+    margin: 20px 0px;
+    font-size: 16px;
+}
+
+.footer .container .one p{
+    margin: 20px 0px;
+    font-size: 13px;
+    color: #d2d0d0;
+}
+
+.footer .container .one i{
+    color: cyan;
+}
+
+.footer .container .one i:not(:last-of-type){
+    margin-right: 13px;
+}
+
+.footer .container .two h3{
+    margin: 20px 0px;
+    font-size: 16px;
+}
+
+.footer .container .two ul{
+    list-style-type: none;
+    line-height: 1.5;
+    color: #d2d0d0;
+    font-size: 12px; 
+}
+
+.footer .container .two ul li{
+    cursor: pointer;
+}
+
+.footer .container .two ul li:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.footer .container .three h3{
+    margin: 20px 0px;
+    font-size: 16px;
+}
+
+.footer .container .three p{
+    margin: 10px 0px;
+    font-size: 13px;
+    color: #d2d0d0;
+    cursor: pointer;
+}
+
+.footer .container .three p:hover{
+    color: black;
+}
+
+.footer .container .three p i{
+    margin-right: 10px;
+}
+
+.footer .container .four h3{
+    margin: 20px 0px;
+    font-size: 16px;
+}
+
+.footer .container .four input{
+    display: block;
+}
+
+.footer .container .four input[type="search"]{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.footer .container .four input[type="submit"]{
+    margin: 20px 1px;
+    border-radius: 19px;
+    border: none;
+    outline: none;
+    padding: 6px 10px;
+    color: #fff;
+    width: 30%;
+    background-color: cyan;
+    cursor: pointer;
+}
+
+/* start media for section footer */
+@media (max-width: 767px) {                                /* mobile and tablet screen rules */
+    .footer .container{
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .footer .container .one, .two, .three, .four{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {         /* small screen rules */
+    .footer .container{
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .footer .container .one, .two, .three, .four{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {         /* meduim screen rules */
+    .footer .container{
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .footer .container .one, .two, .three, .four{
+        margin-bottom: 20px;
+    }
+}
+/* end media for section footer */
+/* end section footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media for screen sizes */ 
+
+@media (max-width: 767px) {                                     /* mobile and tablet screen rules */
+    header .container .nav ul{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {              /* small screen rules */
+    header .container .nav i{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {             /* meduim screen rules */
+    header .container .nav i{
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {                                    /* large screen rules */
+    header .container .nav i{
+        display: none;
+    }
+}
+
+/* media for screen sizes */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

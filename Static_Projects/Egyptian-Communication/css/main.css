@@ -1,0 +1,307 @@
+/* start personal theme */
+body{
+    background-image: url(../images/body.jpg);
+    background-size: 100% 100%;
+    height: 3000px;
+}
+
+.display{
+    display: none;
+}
+/* end personal theme */
+
+/* start nav */
+nav h3 span{
+    color: #00d0d0;
+    cursor: pointer;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-duration: 3s;
+}
+
+@keyframes color-change{
+    25%{
+        color: #00bdbd;
+    }
+    50%{
+        color: #00a9a9;
+    }
+    75%{
+        color: #009898;
+    }
+    100%{
+        color: #004c4c;
+    }
+}
+/* end nav */
+
+/* start header */
+header .left{
+    margin: 170px 0px 20px 0px;
+}
+
+header h4{
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+header h4 span{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+header .two{
+    color: orange;
+    font-size: 26px;
+}
+
+header .left input{
+    padding: 8px 20px;
+    border-radius: 17px;
+    border: none;
+    font-size: 14px;
+    outline: none;
+}
+
+header .left button{
+    border: none;
+    background: #fd4b4b;
+    border-radius: 50px;
+    padding: 7px 35px;
+    color: #fff;
+}
+
+header .left ul{
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+header .left ul li{
+    line-height: 1.5;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+header .right img{
+    margin-top: 60px;
+}
+/* start media for header */
+@media (max-width: 767px) {                                          /* mobile and tablet screen rules */
+    header .left{
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {                   /* small screen rules */
+    header .row{
+        align-items: center;
+    }
+
+    header .left h4 span{
+       font-size: 30px;
+    }
+}
+/* end media for header */
+/* end header */
+
+/* start section features */
+.features{
+    overflow: hidden;
+}
+
+.features h3 span{
+    color: orange;
+}
+
+.features .left ul li{
+    cursor: pointer;
+    line-height: 3.8;
+    font-size: 19px;
+}
+
+.features .left ul li:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.features h2{
+    color: #fff;
+    background-color: #000069;
+    padding: 20px 0px;
+    font-size: 54px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.features h2:hover{
+    transform: scale(1.1, 1.1);
+    transition: all .5s;
+}
+/* end section features */
+
+/* start section texting */
+.texting{
+    margin: 30px 0px;
+}
+
+.texting .row{
+    align-items: center;
+}
+
+.texting .left h4{
+    margin: 15px 0px;
+    font-size: 19px;
+    color: #6f6f6f;
+}
+
+.texting .left p{
+    color: gray;
+}
+/* end section texting */
+
+/* start section service */
+.service .row{
+    align-items: center;
+}
+
+.service .icons i{
+    color: #fff;
+    background-color: #000069;
+    padding: 17px;
+    margin-bottom: 112px;
+    font-size: 44px;
+    border-radius: 50%;
+}
+
+.service .med{
+    color: gray;
+}
+
+.service .med.two{
+    margin-top: 61px;
+}
+
+.service .med.three{
+    margin-top: 61px;
+}
+/* end section service */
+
+/* start section forming */
+.forming h1{
+    font-size: 32px;
+    color: #3c3c3c;
+    text-shadow: 1px 1px 1px black;
+}
+
+.forming span{
+    color: orange;
+}
+
+.forming form{
+    background-color: #fff;
+    padding: 14px;
+    border-radius: 5px;
+}
+
+.forming form input{
+    border-radius: 3px;
+    margin: 20px 0px;
+    font-size: 12px;
+}
+
+.forming form button{
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    background-color: #ef5454;
+}
+/* end section forming */
+
+.last{
+    margin: 50px 0px;
+    color: red;
+    font-size: 82px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

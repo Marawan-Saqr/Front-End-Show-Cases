@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/project1", "destination": "/project1/index.html" }
+    { "source": "/Amazon-Smile", "destination": "/Static_Projects/Amazon-Smile/index.html" }
   ]
 }

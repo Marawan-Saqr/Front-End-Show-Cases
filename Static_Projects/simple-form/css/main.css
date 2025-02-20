@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(../images/Global_business_desktop_background-2.jpg);
+}
+
+
+.here h1{
+    color: #fff;
+    text-align: center;
+    font-size: 52px;
+    margin-top: 60px;
+}
+
+.here h1 span{
+    color: orangered;
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #000000bf;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form input{
+    display: block;
+    margin: 10px 0px 30px 0px; 
+    border: none;
+    padding: 10px;
+    text-align: center;
+    background-color: #000000bf;
+    color: #fff;
+    border-bottom: 1px solid red;
+}
+
+form input[class="two"]{
+    color: red;
+    margin-left: 59px;
+}
+
+
+
+
+.here p{
+    text-align: center;
+    color: #fff;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+

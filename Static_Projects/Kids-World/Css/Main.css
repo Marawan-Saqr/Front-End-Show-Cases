@@ -1,0 +1,1457 @@
+/* start personal theme */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial, tahoma, sans-serif;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.hr{
+    margin: 20px 90px 20px 90px;
+}
+
+.h1{
+    font-size: 2em;
+}
+
+::selection{
+    background-color: rgb(211, 35, 64);
+    color: #fff;
+}
+
+:root{
+    --Border-Raduis: 3px;
+}
+
+/* end personal theme */
+
+/* start section top */
+
+.top{
+    background-color: #000040;
+    padding: 10px;
+}
+
+.top .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top .container .left i{
+    color: #fff;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.top .container .left i:hover{
+    color: red;
+}
+
+.top .container .left i:not(:last-of-type){
+    margin-right: 17px;
+}
+
+.top .container .right i{
+    color: #fff;
+    margin-right: 10px;
+}
+
+.top .container .right h4{
+    display: inline-block;
+    color: #fff;
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+.top .container .right h4:hover{
+    color: red;
+}
+
+/* start media for section top */
+
+@media (max-width: 767px){                                     /* mobile and tablet screen rules */
+.top .container{
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.top .container .left i{
+    font-size: 14px;
+}
+
+.top .container .right{
+    margin-top: 8px;
+}
+
+.top .container .right i{
+    color: #fff;
+    margin-right: 10px;
+    font-size: 14px;
+}
+    
+.top .container .right h4{
+    display: inline-block;
+    color: #fff;
+    padding-right: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+}
+
+/* end media for section top */
+/* end section top */
+
+/* start section title */
+
+.title{
+    margin-top: 20px;
+}
+
+.title .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title .container .logo{
+    width: 30%;
+}
+
+.title .container .logo img{
+    width: 50%;
+}
+
+.title .container nav ul{
+    list-style: none;
+}
+
+.title .container nav ul li{
+    display: inline-block;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.title .container nav ul li[class="First"]{
+    color: blue;
+}
+
+.title .container nav ul li[class="second"]{
+    color: cyan;
+}
+
+.title .container nav ul li[class="third"]{
+    color: #f94665;
+}
+
+.title .container nav ul li[class="fourth"]{
+    color: green;
+}
+
+.title .container nav ul li[class="fifth"]{
+    color: #59e4c4;
+}
+
+.title .container nav ul li[class="sixth"]{
+    color: orange;
+}
+
+.title .container nav ul li[class="seventh"]{
+    color: #03ff03;
+}
+
+.title .container nav ul li[class="eigth"]{
+    color: red;
+}
+
+.title .container nav ul li:hover{
+    text-decoration: underline;
+}
+
+.title .container nav ul li:not(:last-of-type){
+    margin-right: 15px;
+}
+
+.title .container nav ul i{
+    margin-left: 10px;
+}
+
+/* start media for section title */
+
+@media (max-width: 767px){                                          /* mobile and tablet rules */
+    .title .container{
+        flex-wrap: wrap;
+    }
+
+    .title .container .logo{
+        width: 100%;
+    }
+
+    .title .container .logo img{
+        width: 100%;
+    }
+
+    .title .container nav{
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {                  /* small screen rules */
+    .title .container{
+        flex-wrap: wrap;
+    }
+
+    .title .container .logo{
+        width: 100%;
+    }
+
+    .title .container .logo img{
+        width: 100%;
+    }
+
+    .title .container nav{
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {                /* meduim screen rules */
+    .title .container .logo{
+        width: 50%;
+    }
+    
+    .title .container .logo img{
+        width: 50%;
+    }
+    
+    .title .container nav{
+        width: 50%;
+    }
+
+    .title .container nav ul{
+        list-style: none;
+    }
+    
+    .title .container nav ul li{
+        display: inline-block;
+        font-size: 19px;
+        cursor: pointer;
+    }
+}
+
+/* end media for section title */
+/* end section title */
+
+/* start header */
+
+header{
+    background-image: url(../Images/https___cdn.cnn.com_cnnnext_dam_assets_190815153120-02-back-to-school-kids-poverty-how-to-help-trnd.jpg);
+    background-size: cover;
+    min-height: 500px;
+    margin-top: 20px;
+    position: relative;
+}
+
+header .container .info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(34%,-50%);
+}
+
+header .container .info h3{
+    color: cyan;
+    font-style: italic;
+    font-family: initial;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+header .container .info .h1{
+    color: red;
+    font-style: italic;
+    font-family: revert;
+    font-size: 54px;
+}
+
+header .container .info ul{
+    list-style-type: disclosure-closed;
+    font-size: 12px;
+    color: #654141;
+}
+
+header .container .info button{
+    color: #fff;
+    background-color: orange;
+    padding: 5px 15px;
+    font-size: 17px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition-duration: .4s;
+}
+
+header .container .info button:hover{
+    background-color: red;
+    margin-left: 25%;
+}
+
+/* start media for header */
+
+@media (max-width: 767px) {                           /* mobile and tablet screen rules */
+    header{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    header .container .info{
+        transform: translate(1%,-105%);
+    }
+
+    header .container .info h3{
+        color: cyan;
+        font-style: italic;
+        font-family: initial;
+        font-size: 22px;
+        font-weight: 200;
+    }
+    
+    header .container .info .h1{
+        color: red;
+        font-style: italic;
+        font-family: revert;
+        font-size: 35px;
+    }
+    
+    header .container .info ul{
+        list-style-type: disclosure-closed;
+        font-size: 12px;
+        color: #654141;
+    }
+    
+    header .container .info button{
+        color: #fff;
+        background-color: orange;
+        padding: 5px 15px;
+        font-size: 14px;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+        transition-duration: .4s;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    header .container .info .h1{
+        color: red;
+        font-style: italic;
+        font-family: revert;
+        font-size: 37px;
+    }
+}
+
+/* end media for header */
+/* end header */
+
+/* start section our-service */
+
+.our-service{
+    padding: 20px;
+    background-color: #e0dada;
+}
+
+.our-service .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.our-service .container .box{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: var(--Border-Raduis);
+}
+
+.our-service .container .box:not(:last-of-type){
+    margin-right: 1%;
+}
+
+.our-service .container .box.first{
+    border-left: 3px solid red;
+    cursor: pointer;
+}
+
+.our-service .container .box.first:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.our-service .container .box.second{
+    border-left: 3px solid cyan;
+    cursor: pointer;
+}
+
+.our-service .container .box.second:hover{
+    background-color: cyan;
+    color: #fff;
+}
+
+.our-service .container .box.third{
+    border-left: 3px solid orangered;
+    cursor: pointer;
+}
+
+.our-service .container .box.third:hover{
+    background-color: orangered;
+    color: #fff;
+}
+
+.our-service .container .box.fourth{
+    border-left: 3px solid purple;
+    cursor: pointer;
+}
+
+.our-service .container .box.fourth:hover{
+    background-color: purple;
+    color: #fff;
+}
+
+.our-service .container .box i[class="fas fa-home"]{
+    background-color: red;
+    color: #fff;
+    float: left;
+    border-radius: 50%;
+    padding: 9px;
+    font-size: 23px;
+    margin-right: 9px;
+}
+
+.our-service .container .box i[class="fas fa-paint-brush"]{
+    background-color: cyan;
+    color: #fff;
+    float: left;
+    border-radius: 50%;
+    padding: 9px;
+    font-size: 23px;
+    margin-right: 9px;
+}
+
+.our-service .container .box i[class="fas fa-check-circle"]{
+    background-color: orangered;
+    color: #fff;
+    float: left;
+    border-radius: 50%;
+    padding: 9px;
+    font-size: 23px;
+    margin-right: 9px;
+}
+
+.our-service .container .box i[class="fas fa-user"]{
+    background-color: purple;
+    color: #fff;
+    float: left;
+    border-radius: 50%;
+    padding: 9px;
+    font-size: 23px;
+    margin-right: 9px;
+}
+
+/* start media for section our-service */
+
+@media (max-width: 767px) {                                     /* mobile and tablet screen rules */
+    .our-service .container{
+        flex-wrap: wrap;
+    }
+
+    .our-service .container .box:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {               /* small screen rules */
+    .our-service .container{
+        flex-wrap: wrap;
+    }
+
+    .our-service .container .box{
+        flex-basis: 48%;
+        margin-left: 1%;
+        margin-bottom: 10px;
+    }
+}
+
+/* end media for section our-service */
+/* end section our-service */
+
+/* start section our-activities */
+
+.our-activities .h1{
+    color: purple;
+    margin-top: 30px;
+    font-size: 21px;
+    font-family: monospace;
+    font-style: oblique;
+}
+
+.our-activities h3{
+    font-size: 38px;
+    color: orangered;
+    margin-top: -21px;
+}
+
+.our-activities .container{
+    display: flex;
+    justify-content: center;
+}
+
+.our-activities .container .box{
+    border: 1px solid #d2d2d2;
+    text-align: center;
+    width: 17%;
+    padding: 10px;
+    margin: 1%;
+    position: relative;
+}
+
+.our-activities .container .box:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    bottom: -11px;
+    background-color: red;
+    left: 0px;
+    background-image: linear-gradient(to right, red 10%, blue 80%);
+}
+
+.our-activities .container .box img{
+    width: 70%;
+}
+
+.our-activities .container .box h4{
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+.our-activities .container .box.first h4{
+    color:rgb(211, 35, 64);
+}
+
+.our-activities .container .box.Second h4{
+    color: green;
+}
+
+.our-activities .container .box.Third h4{
+    color: cyan;
+}
+
+.our-activities .container .box.Fourth h4{
+    color: orangered;
+}
+
+.our-activities .container .box p{
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.our-activities .container .box button{
+    color: #fff;
+    font-size: 17px;
+    padding: 5px 10px;
+    background-color: green;
+    border: none;
+    border-radius: var(--Border-Raduis);
+    cursor: pointer;
+}
+
+.our-activities .container .box.first button{
+    background-color: rgb(211, 35, 64);
+}
+
+.our-activities .container .box.Third button{
+    background-color: cyan;
+}
+
+.our-activities .container .box.Fourth button{
+    background-color: orangered;
+}
+
+/* start media for section our-activities */
+
+@media (max-width: 767px) {                               /* mobile and tablets screen rules */
+    .our-activities .container{
+        flex-wrap: wrap;
+    }
+
+    .our-activities .container .box{
+        flex-basis: 48%;
+        margin-left: 1%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .our-activities .container{
+        flex-wrap: wrap;
+    }
+
+    .our-activities .container .box{
+        flex-basis: 48%;
+        margin-left: 1%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .our-activities .container .box{
+        flex-basis: 49%;
+        margin-left: 1%;
+        margin-bottom: 20px;
+    }
+}
+
+/* end media for section our-activities */
+/* end section our-activities */
+
+/* start section meduim */
+
+.meduim{
+    background-image: url(../Images/child-drawing-paper-pens-wallpaper.jpg);
+    background-size: cover;
+    min-height: 500px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.meduim .container .big-box{
+    position: absolute;
+    background-color: yellow;
+    width: 36%;
+    border-radius: 8px;
+    padding: 17px;
+    top: 26%;
+    left: 7%;
+}
+
+.meduim .container .big-box:after{
+    content: "H";
+    position: absolute;
+    color: #01b901b0;
+    font-size: 226px;
+    top: -90px;
+    left: -73px;
+}
+
+.meduim .container .big-box h3{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.meduim .container .big-box p{
+    caret-color: red;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.meduim .container .big-box h4{
+    margin-bottom: 10px;
+}
+
+.meduim .container .big-box .dir{
+    display: flex;
+    justify-content: space-around;
+}
+
+.meduim .container .big-box .dir .box{
+    border: 1px solid black;
+    padding: 3px 22px;
+    border-radius: var(--Border-Raduis);
+    cursor: pointer;
+}
+
+.meduim .container .big-box .dir .box:hover{
+    background-color: green;
+    color: #fff;
+}
+
+.meduim .container .big-box .dir .box i{
+    font-size: 12px;
+}
+
+/* start media for section meduim */
+
+@media (max-width: 767px) {
+    .meduim{
+        background-image: url(../Images/child-drawing-paper-pens-wallpaper.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .meduim .container .big-box{
+        position: absolute;
+        background-color: yellow;
+        width: 50%;
+        border-radius: 8px;
+        padding: 17px;
+        top: 5%;
+        left: 3%;
+    }
+
+    .meduim .container .big-box h3{
+        font-size: 21px;
+    }
+
+    .meduim .container .big-box p{
+        font-size: 12px;
+    }
+
+    .meduim .container .big-box h4{
+        font-size: 12px;
+    }
+
+    .meduim .container .big-box:after{
+        display: none;
+    }
+
+    .meduim .container .big-box .dir .box{
+        padding: 2px 7px;
+    }
+
+    .meduim .container .big-box .dir .box i{
+        font-size: 10px;
+    }
+}
+
+/* end media for section meduim */
+/* end section meduim */
+
+/* start section boxes */
+
+.boxes .container{
+    display: flex;
+}
+
+.boxes .h1{
+    color: purple;
+    margin-top: 30px;
+    font-size: 21px;
+    font-family: monospace;
+    font-style: oblique;
+}
+
+.boxes h3{
+    font-size: 38px;
+    color: orangered;
+    margin-top: -21px;
+}
+
+.boxes .container .left{
+    margin-top: 20px;
+    flex-basis: 45%;
+}
+
+.boxes .container .left .box{
+    background-image: url(../Images/colors\ girll.jpg);
+    background-size: cover;
+    min-height: 400px;
+    position: relative;
+}
+
+.boxes .container .left .box p{
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    font-size: 29px;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    font-family: monospace;
+}
+
+.boxes .container .left .box2{
+    margin-top: 20px;
+    background-color: #430080;
+    padding: 20px;
+}
+
+.boxes .container .left .box2 h5{
+    color: #fff;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px black;
+    font-size: 16px;
+}
+
+.boxes .container .left .box2 p{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.boxes .container .right{
+    flex-basis: 45%;
+    margin-left: 1%;
+}
+
+.boxes .container .right .box3{
+    margin-top: 20px;
+    background-color: #ff0052;
+    padding: 20px;
+}
+
+.boxes .container .right .box3 h5{
+    color: #fff;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px black;
+    font-size: 16px;
+}
+
+.boxes .container .right .box3 p{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.boxes .container .right .box4{
+    margin-top: 20px;
+    width: 45%;
+    display: flex;
+}
+
+.boxes .container .right .box4 img{
+    width: 100%;
+}
+
+.boxes .container .right .box4 i{
+    background-color: #fbff00;
+    margin-left: 11px;
+    padding: 83px;
+    font-size: 89px;
+    color: #fff;
+}
+
+.boxes .container .right .box5{
+    margin-top: 20px;
+    background-color: orangered;
+    padding: 20px;
+}
+
+.boxes .container .right .box5 h5{
+    color: #fff;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px black;
+    font-size: 16px;
+}
+
+.boxes .container .right .box5 p{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* start media for section boxes */
+
+@media (max-width: 767px) {                                 /* mobile and tablet screen rules */
+    .boxes .h1{
+        font-size: 11px;
+    }
+
+    .boxes h3{
+        font-size: 33px;
+    }
+
+    .boxes .container{
+        flex-wrap: wrap;
+    }
+
+    .boxes .container .left{
+        flex-basis: 100%;
+    }
+
+    .boxes .container .right{
+        flex-basis: 100%;
+    }
+
+    .boxes .container .right .box4{
+        width: 50%;
+    }
+
+    .boxes .container .right .box4 i{
+        padding: 46px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {                 /* small screen rules */
+    .boxes .container{
+        display: grid;
+    }
+
+    .boxes .container .right .box4 i{
+        padding: 117px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .boxes .container .right .box4 i {
+        background-color: #fbff00;
+        margin-left: 11px;
+        padding: 75px 65px;
+        font-size: 89px;
+        color: #fff;
+    }
+}
+
+/* end media for section boxes */
+/* end section boxes */
+
+/* start section kidsworld */
+
+.kidsworld{
+    margin: 20px 0px;
+    padding: 10px 0px;
+    background-color: #e0dada;
+
+}
+
+.kidsworld .h1{
+    color: purple;
+    margin-top: 30px;
+    font-size: 21px;
+    font-family: monospace;
+    font-style: oblique;
+}
+
+.kidsworld h3{
+    font-size: 38px;
+    color: orangered;
+    margin-top: -21px;
+}
+
+.kidsworld .container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 50%;
+}
+
+.kidsworld .container .box{
+    margin-left: 3%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: var(--Border-Raduis);
+}
+
+.kidsworld .container .box i[class="fas fa-ring"]{
+    color: purple;
+    margin-bottom: 10px;
+}
+
+.kidsworld .container .box i[class="fas fa-coffee"]{
+    color: orangered;
+    margin-bottom: 10px;
+}
+
+.kidsworld .container .box i[class="fas fa-desktop"]{
+    color: #08e608;
+    margin-bottom: 10px;
+}
+
+.kidsworld .container .box h4{
+    margin-bottom: 10px;
+}
+
+/* start media for section kidsworld */
+
+@media (max-width: 767px) {                         /* mobile and tablets screen rules */
+    .kidsworld .container{
+        width: 100%;
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .kidsworld .container{
+        width: 100%;
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .kidsworld .container{
+        width: 60%;
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+/* end media for section kidsworld */
+/* end section kidsworld */
+
+/* start section phases */
+
+.phases .h1{
+    color: purple;
+    margin-top: 30px;
+    font-size: 21px;
+    font-family: monospace;
+    font-style: oblique;
+}
+
+.phases h3{
+    font-size: 38px;
+    color: orangered;
+    margin-top: -21px;
+}
+
+.phases .container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 392px;
+    width: 50%;
+}
+
+.phases .container .box{
+    margin-left: 2%;
+    background-color: #e8e6e6;
+    padding: 6px;
+    position: relative;
+    border-radius: var(--Border-Raduis);
+}
+
+.phases .container .box img{
+    width: 100%;
+    border-radius: var(--Border-Raduis);
+}
+
+.phases .container .box i[class="fas fa-laptop"]{
+    position: absolute;
+    color: #fff;
+    background-color: #ff0052;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: var(--Border-Raduis);
+    top: 2px;
+    left: 2px;
+}
+
+.phases .container .box i[class="fas fa-image"]{
+    position: absolute;
+    color: #fff;
+    background-color: #00ff00;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: var(--Border-Raduis);
+    top: 2px;
+    left: 2px;
+}
+
+.phases .container .box i[class="fas fa-edit"]{
+    position: absolute;
+    color: #fff;
+    background-color: cyan;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: var(--Border-Raduis);
+    top: 2px;
+    left: 2px;
+}
+
+.phases .container .box h4{
+    margin: 10px 0px;
+    color: #4c4c4c;
+}
+
+.phases .container .box p{
+    font-size: 14px;
+    color: gray;
+}
+
+.phases .container .box.one button{
+    color: #fff;
+    font-size: 17px;
+    padding: 5px 10px;
+    background-color: rgb(211, 35, 64);
+    border: none;
+    border-radius: var(--Border-Raduis);
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.phases .container .box.two button{
+    color: #fff;
+    font-size: 17px;
+    padding: 5px 10px;
+    background-color: #00ff00;
+    border: none;
+    border-radius: var(--Border-Raduis);
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.phases .container .box.three button{
+    color: #fff;
+    font-size: 17px;
+    padding: 5px 10px;
+    background-color: cyan;
+    border: none;
+    border-radius: var(--Border-Raduis);
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* start media for section phases */
+
+@media (max-width: 767px) {                                    /* mobile and tablet screen rules */
+    .phases .container{
+        width: 100%;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: 410px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {             /* small screen rules */
+    .phases .container{
+        width: 100%;
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .phases .container{
+        width: 60%;
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+/* end media for section phases */
+/* end section phases */
+
+/* start section subscribe */
+
+.subscribe{
+    background-color: #0a0aeca3;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.subscribe .container{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.subscribe .container .left .h1{
+    color: #fff;
+    font-size: 27px;
+    margin: 8px 0px;
+}
+
+.subscribe .container .left p{
+    color: #fff;
+}
+
+.subscribe .container .right{
+    margin: auto;
+    background-color: orange;
+    padding: 3px;
+    border-radius: var(--Border-Raduis);
+}
+
+.subscribe .container .right input{
+    padding: 8px;
+    border-radius: var(--Border-Raduis);
+    border: none;
+}
+
+.subscribe .container .right button{
+    background-color: orange;
+    padding: 8px;
+    border: none;
+    border-radius: var(--Border-Raduis);
+    cursor: pointer;
+}
+
+/* start media for section subscribe */
+
+@media (max-width: 767px) {                                 /* mobile and tablet screen rules */
+    .subscribe .container{
+        grid-template-columns: repeat(1, 100%);
+        text-align: center;
+    }
+
+    .subscribe .container .left .h1{
+        font-size: 19px;
+    }
+
+    .subscribe .container .left p{
+        margin: 10px 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {          /* small screen rules */
+    .subscribe .container{
+        grid-template-columns: repeat(1, 100%);
+        text-align: center;
+    }
+
+    .subscribe .container .left .h1{
+        font-size: 19px;
+    }
+
+    .subscribe .container .left p{
+        margin: 10px 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {               /* meduim screen rules */
+    .subscribe .container .left .h1{
+        font-size: 22px;
+    }
+}
+
+/* end media for section subscribe */
+/* end section subscribe */
+
+/* start section activities2 */
+
+.activities2 .h1{
+    color: purple;
+    margin-top: 30px;
+    font-size: 21px;
+    font-family: monospace;
+    font-style: oblique;
+}
+
+.activities2 h3{
+    font-size: 38px;
+    color: orangered;
+    margin-top: -21px;
+}
+
+.activities2 .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "box  box2  box3";
+    column-gap: 14px;
+}
+
+.activities2 .container .box{
+    background-color: #efefef;
+    padding: 7px;
+}
+
+.activities2 .container .box img{
+    width: 100%;
+    background-color: #eee;
+    padding: 7px;
+    border: 2px solid #fff;
+}
+
+.activities2 .container .box h4{
+    padding: 5px;
+}
+
+.activities2 .container .box p{
+    padding: 5px;
+}
+
+.activities2 .container .box.one{
+    grid-area: box;
+}
+
+.activities2 .container .box.one button{
+    color: #fff;
+    background-color: #00d2d2;
+    border: none;
+    border-radius: var(--Border-Raduis);
+    padding: 7px;
+    cursor: pointer;
+}
+
+.activities2 .container .box.two button{
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: var(--Border-Raduis);
+    padding: 7px;
+    cursor: pointer;
+}
+
+.activities2 .container .box.three button{
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: var(--Border-Raduis);
+    padding: 7px;
+    cursor: pointer;
+}
+
+.activities2 .container .box.two{
+    grid-area: box2;
+}
+
+.activities2 .container .box.three{
+    grid-area: box3;
+}
+
+/* start media for section activities2 */
+
+@media (max-width: 767px) {                             /* mobile and tablet screen rules */
+    .activities2 .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "box" "box2" "box3";
+        column-gap: 14px;
+        row-gap: 10px;
+    }
+}
+
+/* end media for section activities2 */
+/* end section activities2 */
+
+/* start section children */
+.children{
+    background-color: #0a0aeca3;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.children .container .h1{
+    color: #fff;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.children .container button{
+    background-color: orange;
+    padding: 5px 10px;
+    border: none;
+    margin: 10px 0px 0px 0px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: var(--Border-Raduis);
+}
+/* end section children */
+
+/* start footer */
+
+footer{
+    margin-top: 30px;
+}
+
+footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+footer .container .box img{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+footer .container .box p{
+    line-height: 1.6;
+    color: gray;
+}
+
+footer .container .box p span{
+    color: cyan;
+}
+
+footer .container .box ul{
+    color: gray;
+    margin: 10px 0px;
+}
+
+footer .container .box ul li{
+    padding: 5px 10px;
+}
+
+footer .container .box2 .img:not(:last-of-type){
+    margin-bottom: 10px;
+}
+
+footer .container .box2 img{
+    width: 25%;
+}
+
+footer .container .h1{
+    margin-bottom: 20px;
+    color: purple;
+}
+
+footer .container p{
+    padding: 8px 0px;
+}
+
+footer .container p i{
+    color: #01d0d0;
+}
+
+footer .container .box input{
+    border: 2px solid orange;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* start media for footer */
+
+@media (max-width: 767px) {                    /* mobile and tablet rules */
+    footer .container{
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    footer .container .box:not(:last-of-type){
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    footer .container{
+        grid-template-columns: repeat(2, 50%);
+        column-gap: 40px;
+        row-gap: 40px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    footer .container{
+        grid-template-columns: repeat(3, 30%);
+        column-gap: 40px;
+        row-gap: 40px;
+    }
+}
+
+/* end media for footer */
+/* end footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

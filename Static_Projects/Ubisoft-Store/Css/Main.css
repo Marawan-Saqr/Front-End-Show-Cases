@@ -1,0 +1,1145 @@
+/* start my personal theme */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.h1{
+    font-size: 2em;
+}
+
+.text-align{
+    text-align: center;
+}
+
+
+.clear{
+    clear: both;
+}
+
+::selection{
+    background-color: orangered;
+    color: #fff;
+}
+
+:root{
+    --Border-Raduis: 3px;
+}
+/* end my personal theme */
+
+/* start section header */
+header .container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+}
+
+header .container .left{
+    display: flex;
+    align-items: center;
+}
+
+header .container .left img{
+    width: 22%;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+header .container .left img:hover{
+    transform: scale(1.1, 1.1);
+    transition: all .5s;
+}
+
+header .container .left ul{
+    list-style-type: none;
+}
+
+header .container .left ul li{
+    display: inline-block;
+}
+
+header .container .left ul li{
+    margin-left: 15px;
+    color: #01dede;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+header .container .left ul li:hover{
+    transform: scale(1.1, 1.1);
+    transition: all .5s;
+}
+
+header .container .left ul li[class="third"]{
+    color: #00c100;
+}
+
+header .container .right input{
+    border: 1px solid aqua;
+    padding: 6px;
+    border-radius: 30px;
+    width: 58%;
+    outline: none;
+}
+
+header .container .right input:focus{
+    border: 1px solid red;
+}
+
+header .container .right i{
+    color: #00eaea;
+    margin-left: 18px;
+    font-size: 21px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+header .container .right i:hover{
+    transform: scale(1.2, 1.2);
+    transition: all 1s;
+    color: #00afaf;
+}
+
+header .container .right i[class="fas fa-user"]{
+    border: 1px solid #00eaea;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+header .container .right i[class="fas fa-shopping-cart"]{
+   position: relative;
+}
+
+header .container .right i[class="fas fa-shopping-cart"]:after{
+    content: "5";
+    position: absolute;
+    top: -14px;
+    left: 15px;
+    background-color: #ff6060ab;
+    border-radius: 50%;
+    padding: 4px 8px;
+    font-size: 18px;
+}
+
+/* start media for header */
+@media (max-width: 767px) {                                    /* mobile and tablet screen rules */
+    header .container{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+
+    header .container .left{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header .container .left img{
+        width: 50%;
+        cursor: pointer;
+        transition: all .5s;
+        margin: auto;
+    }
+
+    header .container .left ul{
+        margin: 10px auto;
+    }
+
+    header .container .right{
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {              /* small screen rules */
+    header .container{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+
+    header .container .left{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header .container .left img{
+        width: 60%;
+        cursor: pointer;
+        transition: all .5s;
+        margin: auto;
+    }
+
+    header .container .left ul{
+        margin: 10px auto;
+    }
+
+    header .container .right{
+        text-align: center;
+    }
+}
+/* end media for header */
+/* end section header */
+
+/* start section bar */
+.bar .h1{
+    margin-top: 40px;
+    font-size: 17px;
+    background-color: #005e9c;
+    color: #fff;
+    padding: 7px;
+    box-shadow: 1px 1px 3px 2px black;
+    transition: all 1s;
+}
+
+.bar .h1:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 1s;
+}
+
+/* start media for section bar */
+@media (max-width: 767px) {                                    /* mobile and tablet screen rules */
+    .bar .h1{
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {             /* small screen rules */
+    .bar .h1{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {             /* meduim screen rules */
+    .bar .h1{
+        font-size: 14px;
+    }
+}
+/* end media for section bar */
+/* end section bar */
+
+/* start section content */
+.content{
+    background-image: url(../Images/content.jpg);
+    background-size: 100% 100%;
+    height: 580px;
+    position: relative;
+}
+
+.content .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.content .container .caption{
+    transform: translate(60%, -4%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width: 28%;
+    font-size: 22px;
+    color: #fff;
+}
+
+.content .container .caption p{
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.content .container .caption button{
+    border-radius: 19px;
+    border: none;
+    outline: none;
+    padding: 6px 10px;
+    color: #fff;
+    width: 39%;
+    background-color: #3db53d;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 900;
+    transition: all 1s;
+}
+
+.content .container .caption button:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 1s;
+    background-color: red;
+}
+
+.content .container .caption p[class="second"]{
+    font-size: 15px;
+}
+/* start media for section content */
+@media (max-width: 767px) {                                   /* mobile and tablet screen rules */
+    .content .container .caption{
+        transform: translate(-50%, -50%);
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .content .container .caption .h1{
+        font-size: 22px;
+    }
+
+    .content .container .caption p{
+        font-size: 18px;
+    }
+
+    .content .container .caption button{
+        width: 29%;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {             /* small screen rules */
+    .content .container .caption{
+        transform: translate(-50%, -50%);
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .content .container .caption .h1{
+        font-size: 25px;
+    }
+
+    .content .container .caption p{
+        font-size: 20px;
+    }
+
+    .content .container .caption button{
+        width: 20%;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {           /* meduim screen rules */
+    .content .container .caption{
+        transform: translate(-32%, -50%);
+        width: 80%;
+        text-align: center;
+    }
+
+    .content .container .caption .h1{
+        font-size: 35px;
+    }
+
+    .content .container .caption p{
+        font-size: 29px;
+    }
+
+    .content .container .caption button{
+        width: 20%;
+        font-size: 15px;
+    }
+
+    .content .container .caption p[class="second"]{
+        font-size: 20px;
+    }
+}
+/* end media for section content */
+/* end section content */
+
+/* start section spring */
+.spring{
+    background-color: #01759480;
+}
+
+.spring .h1{
+    font-size: 24px;
+    padding: 12px 67px;
+}
+
+.spring .h1 span{
+    border-bottom: 3px solid black;
+}
+
+.spring .container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 30px;
+    width: 90%;
+    perspective: 500px;
+    perspective-origin: top left;
+    overflow: visible;
+}
+
+.spring .container .box{
+    margin: 30px 0px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 2px 1px 7px 1px black;
+    transition: all 1s;
+    position: relative;
+}
+
+.spring .container .box:hover{
+    background-color: rgb(211, 211, 211);
+    transition: all .5s;
+    transform: translate3d(0, 0, 5px);
+}
+
+.spring .container .box:before{
+    content: "-50%";
+    color: #fff;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 3px 17px;
+    position: absolute;
+    top: -13px;
+    left: 23px;
+}
+
+.spring .container .box img{
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.spring .container .box h3{
+    padding: 23px 0px 0px 21px;;
+}
+
+.spring .container .box h4{
+    padding: 1px 0px 0px 21px;
+    font-size: 13px;
+    color: #929292;
+}
+
+.spring .container .box p{
+    padding: 41px 0px 25px 177px;
+    font-size: 22px;
+    color: orangered;
+}
+
+.spring .container .box p span{
+    font-size: 18px;
+    text-decoration: line-through;
+    color: #b1b1b1;
+}
+/* start media for section spring */
+@media (max-width: 767px) {                                                  /* mobile and tablet screen rules */
+    .spring .h1{
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .spring .container{
+        display: grid;
+        grid-template-columns: repeat(1, 60%);
+        justify-content: center;
+        column-gap: 2px;
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {                            /* small screen rules */
+    .spring .h1{
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .spring .container{
+        display: grid;
+        grid-template-columns: repeat(2, 40%);
+        justify-content: space-evenly;
+        column-gap: 2px;
+        width: 90%;
+    }
+
+    .spring .container .box.three{
+        position: relative;
+        left: 60%;
+    }
+}
+/* end media for section spring */
+/* end section spring */
+
+/* start section spring2 */
+.spring2{
+    background-image: url(../Images/DESK_HERO_SPRING_SELECTION_SPRINGSALE_FY21.jpg);
+    background-size: contain;
+    height: 378px;
+    position: relative;
+}
+
+.spring2 .container .caption{
+    position: absolute;
+    transform: translate(63%, -47%);
+    width: 28%;
+    font-size: 17px;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+}
+
+.spring2 .container .caption .h1{
+    font-size: 28px;
+}
+
+.spring2 .container .caption p{
+    font-size: 19px;
+    margin: 19px 0px;
+}
+
+.spring2 .container .caption button{
+    border-radius: 19px;
+    border: none;
+    outline: none;
+    padding: 6px 10px;
+    color: #fff;
+    width: 39%;
+    background-color: #3db53d;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 900;
+    transition: all 1s;
+}
+
+.spring2 .container .caption button:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 1s;
+    background-color: red;
+}
+
+.spring2 .container .caption p[class="last"]{
+    position: relative;
+    top: 54px;
+    font-size: 15px;
+}
+/* start media for section spring2 */
+@media (max-width: 767px) {                           /* mobile and tablet screen rules */
+    .spring2{
+        background-image: url(../Images/DESK_HERO_SPRING_SELECTION_SPRINGSALE_FY21.jpg);
+        background-size: cover;
+    }
+
+    .spring2 .container .caption{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        font-size: 17px;
+        top: 50%;
+        left: 50%;
+        color: #fff;
+        text-align: center;
+        color: #ff0081;
+    }
+
+    .spring2 .container .caption .h1{
+        font-size: 22px;
+    }
+    
+    .spring2 .container .caption p{
+        font-size: 16px;
+        margin: 19px 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {                  /* small screen rules */
+    .spring2{
+        background-image: url(../Images/DESK_HERO_SPRING_SELECTION_SPRINGSALE_FY21.jpg);
+        background-size: cover;
+    }
+
+    .spring2 .container .caption{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        font-size: 17px;
+        top: 50%;
+        left: 50%;
+        color: #fff;
+        text-align: center;
+        color: #ff0081;
+    }
+
+    .spring2 .container .caption .h1{
+        font-size: 22px;
+    }
+    
+    .spring2 .container .caption p{
+        font-size: 16px;
+        margin: 19px 0px;
+    }
+
+    .spring2 .container .caption button{
+       width: 20%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {                   /* meduim screen rules */
+    .spring2{
+        background-image: url(../Images/DESK_HERO_SPRING_SELECTION_SPRINGSALE_FY21.jpg);
+        background-size: contain;
+        height: 378px;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+
+    .spring2 .container .caption{
+        position: absolute;
+        transform: translate(63%, -55%);
+        width: 28%;
+        font-size: 17px;
+        top: 50%;
+        left: 50%;
+        color: #fff;
+    }
+}
+/* end media for section spring2 */
+/* end section spring2 */
+
+/* start section universes */
+.universes{
+    background-color: #01759480;
+    padding: 20px;
+}
+
+.universes .h1{
+    font-size: 24px;
+    padding: 12px 67px;
+}
+
+.universes .h1 span{
+    border-bottom: 3px solid black;
+}
+
+.universes .container{
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    width: 90%;
+    overflow: visible;
+}
+
+.universes .container .box.four{
+    position: relative;
+}
+
+.universes .container .box.four:after{
+    content: ">";
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #00ffee;
+    padding: 9px;
+    right: -23px;
+    top: 28px;
+    font-size: 24px;
+    color: cyan;
+    cursor: pointer;
+}
+
+.universes .container .box img{
+    width: 93%;
+    height: 118px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s;
+    filter: grayscale(1);
+}
+
+.universes .container .box img:hover{
+    transition: all 1s;
+    transform: scale(1.1, 1.1) rotate(1deg);
+    filter: grayscale(0)
+}
+/* start media for section universes */
+@media (max-width: 767px) {                                    /* mobile and tablet rules */
+    .universes .h1{
+        font-size: 19px;
+        padding: 0px;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .universes .container .box.four:after{
+        display: none;
+    }
+
+    .universes .container{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+    }
+
+    .universes .container .box{
+        margin-bottom: 20px;
+    }
+
+    .universes .container .box img{
+        width: 100%;
+        height: 118px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all .5s;
+        filter: grayscale(1);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {                /* small screen rules */
+    .universes .h1{
+        font-size: 22px;
+        padding: 0px;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .universes .container .box.four:after{
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        border: 3px dotted #ff0000;
+        padding: 9px;
+        right: 330px;
+        top: -22px;
+        font-size: 24px;
+        color: cyan;
+        cursor: pointer;
+        animation-name: rotation;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes rotation{           /* animation */
+        0%{
+            transform: rotate(0deg);
+        }
+
+        100%{
+            transform: rotate(360deg);
+        }
+    }                              /* animation */
+
+    .universes .container{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .universes .container .box{
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {                 /* meduim screen rules */
+    .universes .container{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .universes .container .box.four:after{
+        display: none;
+    }
+}
+
+/* end media for section universes */
+/* end section universes */
+
+/* start section sellers */
+.sellers{
+    padding: 20px;
+    background-color: #dadada;
+}
+
+.sellers .h1{
+    font-size: 24px;
+    padding: 12px 67px;
+}
+
+.sellers .h1 span{
+    border-bottom: 3px solid black;
+}
+
+.sellers .container{
+    width: 90%;
+    overflow: visible;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    column-gap: 20px;
+}
+
+.sellers .container .box{
+    margin: 30px 0px 70px 0px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.sellers .container .box:hover{
+    transform: scale(1.1, 1.1);
+    transition: all .5s;
+}
+
+.sellers .container .box:before{
+    content: "-85%";
+    color: #fff;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 3px 17px;
+    position: absolute;
+    top: -13px;
+    left: 23px;
+}
+
+.sellers .container .box.one{
+    box-shadow: 1px 1px 4px 2px #ffbc00;
+}
+
+.sellers .container .box.two{
+    box-shadow: 1px 1px 4px 2px yellow;
+}
+
+.sellers .container .box.three{
+    box-shadow: 1px 1px 4px 2px rgb(0, 81, 255);
+}
+
+.sellers .container .box.four{
+    box-shadow: 1px 1px 4px 2px rgb(0, 62, 197);
+}
+
+.sellers .container .box img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.sellers .container .box h4{
+    padding: 17px 0px 5px 5px;
+    animation-name: coloring-text;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes coloring-text{
+    0%{
+        color: red;
+    }
+
+    25%{
+        color: green;
+    }
+
+    50%{
+        color: blue;
+    }
+
+    75%{
+        color: yellow;
+    }
+
+    100%{
+        color: orangered;
+    }
+}
+
+.sellers .container .box p{
+    color: orangered;
+    float: right;
+    margin-right: 12px;
+}
+
+.sellers .container .box p span{
+    font-size: 18px;
+    text-decoration: line-through;
+    color: #b1b1b1;
+}
+
+/* start media for section sellers */
+@media (max-width: 767px) {                         /* mobile and tablet screen rules */
+    .sellers .h1{
+        font-size: 19px;
+        padding: 0px;
+        margin-bottom: 10px;
+        text-align: center;
+        background-color: red;
+        color: #fff;
+        transition: all 1s;
+    }
+
+    .sellers .h1:hover{
+        transform: rotate3d(0, 1, 0, 180deg);
+        transition: all 1s;
+    }
+
+    .sellers .container{
+        display: grid;
+        grid-template-columns: repeat(1, 60%);
+        justify-content: center;
+        column-gap: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {                /* small screen rules */
+    .sellers .h1{
+        font-size: 22px;
+        padding: 0px;
+        margin-bottom: 10px;
+        text-align: center;
+        background-color: red;
+        color: #fff;
+        transition: all 1s;
+    }
+
+    .sellers .h1:hover{
+        transform: rotate3d(0, 1, 0, 180deg);
+        transition: all 1s;
+    }
+
+    .sellers .container{
+        display: grid;
+        grid-template-columns: repeat(2, 30%);
+        justify-content: center;
+        column-gap: 20px;
+    }
+}
+/* end media for section sellers */
+/* end section sellers */
+
+/* start footer */
+footer{
+    background-color: #f7f7f7;
+    padding: 20px 0px;
+    transition: all 1s;
+}
+
+footer:hover{
+    background-color: black;
+    padding: 20px 0px;
+    transition: all 1s;
+}
+
+footer:hover h3{
+    color: cyan;
+}
+
+footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    width: 88%;
+    overflow: visible;
+}
+
+footer .container .box h3{
+    font-size: 17px;
+    margin-bottom: 17px;
+}
+
+footer .container .box ul{
+    list-style-type: none;
+}
+
+footer .container .box ul li{
+    font-size: 14px;
+    line-height: 3.2;
+    color: #00d4d4;
+    cursor: pointer;
+}
+
+footer .container .box ul li:hover{
+    text-decoration: underline;
+}
+
+footer .container .last button{
+    background: none;
+    color: cyan;
+    border: 1px solid cyan;
+    padding: 3px 7px;
+    width: 47%;
+    border-radius: 13px;
+    display: block;
+    margin-bottom: 24px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+footer .container .last button:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 1s;
+    background-color: cyan;
+    color: #fff;
+}
+
+footer .container .last i{
+    color: #00d6d6;
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+/* start media for footer */
+@media (max-width: 767px) {                                               /* mobile and tablet screen rules */
+    footer .container{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {                       /* small screen rules */
+    footer .container{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {                       /* meduim screen rules */
+    footer .container{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+}
+/* end media for footer */
+/* end footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query screen rules */
+@media (max-width: 767px) {                                  /* mobile and tablet screen rules */
+     
+}
+
+@media (min-width: 768px) and (max-width: 991px) {           /* small screen rules */
+     
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {          /* meduim screen rules */
+     
+}
+
+@media (min-width: 1200px) {                                 /* meduim screen rules */
+     
+}
+/* media query screen rules */
+
+
+
+
+
+
+
+
+

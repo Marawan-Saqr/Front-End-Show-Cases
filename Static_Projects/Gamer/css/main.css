@@ -1,0 +1,424 @@
+/* Start my personal theme */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.black{
+  color: #141414;
+}
+
+.pink{
+  color: pink;
+}
+
+.very-black{
+  color: black;
+}
+
+.yellow{
+  color: yellow;
+}
+
+.green{
+  color: green;
+}
+
+.milky{
+  color: #e7dad8;
+}
+
+.blue{
+  color: #0000cc;
+}
+
+:root{
+  --black-color: #02001b;
+  --dark-color: #030030;
+  --red-color: #df0000;
+  --orange-color: #da3a00;
+  --orangered-color: orangered;
+  --white-color: #fff;
+  --milky-color: #cfcfcf;
+  --section-color: #f0f0f0;
+  --transparent-color: #00000065;
+}
+/* End my personal theme */
+
+/* Start section info-us */
+.info-us{
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+.info-us svg{
+  color: var(--orange-color);
+}
+/* Start media for section info-us */
+@media(max-width: 767px){
+  /* Small screen rules */
+  .info-us .left{
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+/* End media for section info-us */
+/* End section info-us */
+
+/* Start section nav-first */
+.nav-first{
+  background-color: var(--dark-color);
+}
+
+.nav-first .logo img{
+  width: 50px;
+  animation-name: logo-spinner;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes logo-spinner{
+  25%{
+    transform: scale(1.1, 1.1);
+  }
+
+  50%{
+    transform: scale(0, 0);
+  }
+
+  75%{
+    transform: scale(1.1, 1.1);
+  }
+
+  100%{
+    transform: scale(0, 0);
+  }
+}
+
+.nav-first .logo h5{
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+
+.nav-first .logo h5 span{
+  color: var(--orange-color);
+}
+
+.nav-first .search input{
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+}
+
+.nav-first .search input:focus{
+  outline: none;
+}
+
+.nav-first .notification svg{
+  color: var(--orange-color);
+  margin: 0px 10px;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: 19px;
+}
+
+.nav-first .notification svg:hover{
+  transform: scale(1.4, 1.4);
+  transition: all .5s;
+}
+/* Start media for section nav-first */
+@media(max-width: 767px){
+  /* small screen rules */
+  .nav-first .logo{
+    justify-content: center;
+    padding: 10px 0px;
+  }
+
+  .nav-first .notification{
+    text-align: center;
+    padding: 10px 0px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+  .nav-first .search{
+    margin-left: 10px;
+  }
+}
+/* End media for section nav-first */
+/* End section nav-first */
+
+/* Start section navbar-top */
+.navbar-top{
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+
+.navbar-top .nav-link{
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.navbar-top .nav-link:hover{
+  color: var(--orangered-color) !important;
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+/* Start media for section navbar-top */
+@media(min-width: 992px) and (max-width: 1199px){
+  /* large screen rules */
+  .navbar-top ul{
+    font-size: 13px;
+  }
+}
+/* End media for section navbar-top */
+/* End section navbar-top */
+
+/* Start section slider */
+.carousel-inner{
+  position: relative;
+}
+
+.carousel-inner:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #0000007e;
+}
+
+.carousel-inner .carousel-caption{
+  position: absolute;
+  z-index: 1000;
+}
+
+.carousel-inner .carousel-caption h5{
+  font-size: 50px;
+}
+
+.carousel-inner .carousel-caption h5 span{
+  color: var(--red-color);
+}
+
+.carousel-inner .carousel-caption p{
+  font-size: 26px;
+}
+
+.carousel-inner .carousel-caption button{
+  font-size: 18px;
+}
+/* Start media for section slider */
+@media(max-width: 767px){
+  /* small screen rules */
+  .carousel-inner .carousel-caption h5{
+    font-size: 30px;
+  }
+
+  .carousel-inner .carousel-caption p{
+    font-size: 16px;
+  }
+
+  .carousel-inner .carousel-caption button{
+    font-size: 15px;
+  }
+}
+/* End media for section slider */
+/* End section slider */
+
+/* Start section good-service */
+.good-service .box .left svg{
+  color: var(--orange-color);
+  font-size: 28px;
+  padding: 0px 6px 6px 1px;
+}
+
+.good-service .box .right h5{
+  margin: 0px;
+  font-size: 15px;
+}
+
+.good-service .box .right p{
+  font-size: 14px;
+}
+/* Start media for section good-service */
+@media(max-width: 767px){
+  /* small screen rules */
+  .good-service .box{
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0px;
+  }
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+  /* large screen rules */
+  .good-service .box .right h5{
+    font-size: 13px;
+  }
+}
+/* End media for section good-service */
+/* End section good-service */
+
+/* Start section games-types */
+.games-types{
+  background-color: var(--section-color);
+}
+
+.games-types .box{
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.games-types .box:hover{
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s;
+}
+
+.games-types .box h5{
+  color: var(--red-color);
+}
+/* Start media for section games-types */
+@media(max-width: 767px){
+  /* small screen rules */
+  .games-types .box{
+    padding: 10px 0px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+  /* small screen rules */
+  .games-types .box{
+    padding: 10px 0px;
+  }
+}
+/* End media for section games-types */
+/* End section games-types */
+
+/* Start section upcoming games */
+.upcoming-games .box{
+  overflow: hidden;
+}
+
+.upcoming-games .box{
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.upcoming-games .box:hover{
+  transition: all 0.5s;
+  transform: scale(1.1, 1.1);
+}
+
+.upcoming-games div[class="box orangered d-flex align-items-center"]{
+  background-color: #eb5600;
+  border-radius: 5px;
+  padding: 4px 53px;
+}
+
+.upcoming-games div[class="box orangered d-flex align-items-center"]:hover{
+  background-color: #b84300;
+}
+
+.upcoming-games div[class="box red d-flex align-items-center"]{
+  background-color: #cf0000;
+  border-radius: 5px;
+  padding: 8px 53px;
+}
+
+.upcoming-games div[class="box red d-flex align-items-center"]:hover{
+  background-color: #8a0000;
+}
+
+.upcoming-games .box .left h5{
+  color: var(--white-color);
+}
+
+.upcoming-games .box .left button{
+  padding: 3px 18px;
+  border: none;
+  border-radius: 5px;
+}
+
+.upcoming-games .box .right img{
+  max-width: 161px;
+}
+/* Start media for section upcoming games */
+@media(max-width: 767px){
+  /* small screen  rules */
+  .upcoming-games .box{
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+
+  .upcoming-games .box .left h5{
+    font-size: 13px;
+  }
+
+  .upcoming-games .box .left button{
+    font-size: 13px;
+    padding: 3px 5px;
+  }
+}
+/* End media for section upcoming games */
+/* End section upcoming games */
+
+/* Start section recommended */
+.recommended h2{
+  position: relative;
+  text-shadow: 3px 4px 4px red;
+}
+
+.recommended h2:after{
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 43px;
+  left: -7px;
+  border: 2px solid #fb4444;
+}
+
+.recommended .box img{
+  cursor: pointer;
+}
+/* Start media for section recommended */
+@media(max-width: 767px){
+  /* small screen rules */
+  .recommended .box{
+    margin-bottom: 40px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+  /* medium screen rules */
+  .recommended .box{
+    margin-bottom: 40px;
+  }
+}
+/* End media for section recommended */
+/* End section recommended */
+
+/* Start section customers */
+.customers h2{
+  background-color: black;
+  color: #c2bbbb;
+  border-radius: 10px;
+}
+
+.customers .box img{
+  border-radius: 10px;
+}
+/* End section customers */
+
+/* Start footer */
+footer{
+  background-color: black;
+  padding: 10px;
+}
+
+footer h5{
+  color: #fff;
+}
+/* End footer */

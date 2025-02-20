@@ -1,0 +1,274 @@
+/* Global user themes */
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.clearFix{
+  clear: both;
+}
+
+/* Start Header */
+Header .container .logo{
+  float: left;
+}
+
+Header .container .logo img{
+  width: 64px;
+}
+
+Header .container .navbar{
+  float: right;
+}
+
+Header .container .navbar ul{
+  list-style-type: none;
+}
+
+Header .container .navbar ul li{
+  display: inline-block;
+  padding-right: 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+Header .container .navbar ul li:nth-last-child(1){
+  padding-right: 0px;
+}
+
+Header .container .navbar ul li:hover{
+  color: hsl(5, 85%, 63%);
+  transition: all 0.3s;
+}
+/* Start media for Header */
+@media(max-width: 767px){                      /* small screen rules */
+  Header .container .logo, Header .container .navbar{
+    width: 100%;
+  }
+
+  Header .container .navbar ul{
+    padding-left: 7px;
+  }
+}
+/* End media for Header */
+/* End Header */
+
+
+/* Start section Home */
+.Home .container .left{
+  width: 68%;
+  float: left;
+}
+
+.Home .container .left img{
+  max-width: 100%;
+}
+
+.Home .container .left .h2-bold {
+  width: 45%;
+  float: left;
+}
+
+.Home .container .left .h2-bold h2 {
+  font-weight: bold;
+  font-size: 53px;
+}
+
+.Home .container .left .parText{
+  width: 45%;
+  float: right;
+  padding-top: 44px;
+}
+
+.Home .container .left .parText p{
+  font-size: 15px;
+  color: hsl(0deg 0% 58%);
+}
+
+.Home .container .left .parText button{
+  color: #fff;
+  background-color: black;
+  padding: 10px 28px;
+  font-size: 18px;
+  transition: all 0.3s;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-top: 30px;
+}
+
+.Home .container .left .parText button:hover{
+  background-color: hsl(5, 85%, 63%); 
+  transition: all 0.3s;
+}
+
+.Home .container .right{
+  width: 30%;
+  float: right;
+  background-color: hsl(240, 100%, 5%);
+  color: #fff;
+}
+
+.Home .container .right .box{
+  padding: 9.3px;
+}
+
+.Home .container .right .box h3{
+  color: hsl(35, 77%, 62%);
+  font-size: 32px;
+}
+
+.Home .container .right .box h4{
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.Home .container .right .box h4:hover{
+  transition: all 0.3s;
+  color: hsl(35, 77%, 62%);
+}
+/* Start Media for section Home */
+@media(max-width: 767px){                        /* small screen rules */
+  .Home .container .left{
+    width: 100%;
+    float: left;
+  }
+  .Home .container .left .h2-bold {
+    width: 100%;
+    float: left;
+    margin-bottom: -50px;
+  }
+  .Home .container .left .h2-bold h2 {
+    font-weight: bold;
+    font-size: 53px;
+  }
+  
+  .Home .container .left .parText{
+    width: 100%;
+    float: right;
+    padding-top: 0px;
+  }
+  .Home .container .left .parText p{
+    font-size: 18px;
+    color: hsl(0deg 0% 58%);
+  }
+  .Home .container .right{
+    width: 100%;
+    float: right;
+    background-color: hsl(240, 100%, 5%);
+    color: #fff;
+    margin-top: 30px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){       /* medium screen rules */
+  .Home .container .left{
+    width: 100%;
+    float: left;
+  }
+  .Home .container .left .h2-bold {
+    width: 100%;
+    float: left;
+    margin-bottom: -50px;
+  }
+  .Home .container .left .h2-bold h2 {
+    font-weight: bold;
+    font-size: 53px;
+  }
+  
+  .Home .container .left .parText{
+    width: 100%;
+    float: right;
+    padding-top: 0px;
+  }
+  .Home .container .left .parText p{
+    font-size: 18px;
+    color: hsl(0deg 0% 58%);
+  }
+  .Home .container .right{
+    width: 100%;
+    float: right;
+    background-color: hsl(240, 100%, 5%);
+    color: #fff;
+    margin-top: 30px;
+  }
+}
+/* End Media for section Home */
+/* End section Home */
+
+
+/* Start footer */
+footer{
+  padding-top: 30px;
+}
+
+footer .container .box {
+  width: 33.3%;
+  float: left;
+}
+
+footer .container .box .left {
+  float: left;
+}
+
+footer .container .box .left img {
+  width: 110px;
+  margin-right: 12px;
+}
+
+footer .container .box .right h3{
+  color: hsl(0deg 0% 58%);
+  font-size: 34px;
+  margin: 0px;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+footer .container .box .right h4{
+  font-size: 17px;
+  margin: 24px 0px 12px 0px;
+}
+
+footer .container .box .right p{
+  font-size: 15px;
+  color: hsl(0deg 0% 58%);
+  margin: 6px;
+}
+/* Start media for footer */
+@media(max-width: 767px){                              /* small screen rules */
+  footer .container .box {                 
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){       /* Medium screen rules */        
+  footer .container .box {
+    width: 100%;
+    clear: both;
+    margin-bottom: 20px;
+  }
+}
+
+@media(min-width: 992px) and (max-width: 1199px){      /* Large screen rules */
+  footer .container .box .right h4{
+    font-size: 13px;
+    margin: 24px 0px 12px 0px;
+  }
+  
+  footer .container .box .right p{
+    font-size: 11px;
+    color: hsl(0deg 0% 58%);
+    margin: 6px;
+  }
+}
+/* End media for footer */
+/* End footer */

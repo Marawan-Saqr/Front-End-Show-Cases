@@ -1,0 +1,296 @@
+/* Imports */
+/* Start My Personal Theme */
+body {
+  background-color: #100028;
+}
+
+/* End My Personal Theme */
+/* Start header */
+header {
+  background-image: url("../assets/images/header-photo.webp");
+  background-size: cover;
+  min-height: 100vh;
+}
+header nav {
+  color: #fff;
+}
+header nav ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+  position: relative;
+  transition: all 0.5s;
+}
+header nav ul li:hover {
+  color: #00bfe7;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+header nav ul li:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  border-bottom: 1px solid #00bfe7;
+}
+header .social-navs a {
+  margin-right: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+header .dawn-navbar {
+  background-color: #4c4c4c;
+  border-radius: 5px;
+}
+header .dawn-navbar ul {
+  width: 100%;
+  line-height: 2.2;
+  font-size: 15px;
+}
+header .dawn-navbar ul li {
+  display: block;
+}
+header .dawn-navbar ul li:hover {
+  background-color: #fff;
+  color: #100028;
+  padding: 0px 5px;
+  border: none;
+}
+header .navbar .container-fluid {
+  justify-content: end;
+}
+header .navbar .container-fluid button {
+  color: #fff;
+  background-color: black;
+}
+header .header-content {
+  padding-top: 120px;
+  color: #fff;
+}
+header .header-content h1 {
+  font-size: 55px;
+}
+
+/* Start Media For header */
+@media (max-width: 767px) {
+  header .header-links {
+    display: none !important;
+  }
+  header .header-content h1 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  header .header-links {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  header .header-links {
+    font-size: 13px;
+  }
+}
+/* End Media For header */
+/* End header */
+/* Start Section services */
+.services {
+  background-color: #100028;
+  color: #fff;
+}
+.services hr {
+  border: 2px solid #00bfe7;
+}
+.services p {
+  color: #4c4c4c;
+}
+.services .box svg {
+  border: 1px solid #fff;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+/* End Section services */
+/* Start Section images */
+.images {
+  overflow: hidden;
+}
+.images .one,
+.images .two,
+.images .three {
+  height: 226px;
+}
+.images .img-fluid {
+  max-width: 25%;
+}
+
+/* Start Media For Section images */
+@media (max-width: 767px) {
+  .images .img-fluid {
+    max-width: 100%;
+  }
+}
+/* End Media For Section images */
+/* End  Section images */
+/* Start Section statics */
+.statics {
+  background-color: #100028;
+}
+.statics .box {
+  background-color: #1a083d;
+  color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 30px;
+  margin: 10px 0px;
+}
+
+/* End Section statics */
+/* Start Section our-team */
+.our-team {
+  background-image: url("../assets/images/team-bg.jpg.webp");
+  background-size: cover;
+  min-height: 90vh;
+  padding: 120px 0px;
+  color: #fff;
+}
+.our-team .content h3 {
+  font-weight: bold;
+}
+.our-team .content hr {
+  width: 13%;
+  border: 4px solid #000204;
+}
+.our-team .col-md-3 {
+  padding: 0px;
+}
+.our-team .col-md-3 .box {
+  position: relative;
+}
+.our-team .two {
+  bottom: 40px;
+}
+.our-team .three {
+  bottom: 91px;
+}
+.our-team .four {
+  bottom: 147px;
+}
+.our-team .subscripe .box-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* End Section our-team */
+/* Start Section blogs */
+.blogs {
+  background-color: #100028;
+  color: #fff;
+}
+.blogs .content hr {
+  width: 10%;
+  margin: auto;
+  height: 4px;
+  background-color: #00bfe7;
+}
+.blogs .box {
+  border-radius: 5px;
+  border: 1px solid #4c4c4c;
+  padding: 40px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.blogs .box h3 {
+  font-size: 24px;
+}
+.blogs .box p {
+  color: #4c4c4c;
+}
+.blogs .box span {
+  color: #4c4c4c;
+  display: block;
+}
+.blogs .box a {
+  color: #fff;
+}
+
+/* End Section blogs */
+/* Start Section drone-cover */
+.drone-cover {
+  background-image: url("../assets/images/drone-cover.webp");
+  background-size: cover;
+  background-position: right;
+  min-height: 60vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.drone-cover h2 {
+  color: #fff;
+  padding-bottom: 20px;
+}
+.drone-cover h6 {
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+/* End Section drone cover */
+/* Start footer */
+footer .right {
+  text-align: right;
+}
+footer .right ul {
+  list-style-type: none;
+  margin: 0px;
+}
+footer .right ul li {
+  color: #fff;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  background-color: black;
+  padding: 5px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+footer hr {
+  color: #4c4c4c;
+}
+footer .box {
+  padding: 30px 0px;
+}
+footer .box h5 {
+  color: #fff;
+}
+footer .box p {
+  color: #4c4c4c;
+}
+footer .box ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+  color: #4c4c4c;
+}
+footer h5 {
+  color: #fff;
+}
+
+/* End footer *//*# sourceMappingURL=main.css.map */

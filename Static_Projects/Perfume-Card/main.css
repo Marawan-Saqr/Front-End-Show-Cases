@@ -1,0 +1,200 @@
+/* Start my global themes */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.clear{
+  clear: both;
+}
+
+body{
+  background-color: hsl(30, 38%, 92%);
+  font-family: 'Roboto', sans-serif;
+}
+/* End my global themes */
+
+/* Start Section bigBox */
+.bigBox{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+}
+
+.bigBox .left{
+  width: 50%;
+  float: left;
+}
+
+.bigBox .left img{
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.bigBox .right{
+  width: 50%;
+  float: right;
+  padding: 30px;
+}
+
+.bigBox .right h4{
+  color: hsl(228, 12%, 48%);
+  font-size: 13px;
+  letter-spacing: 10px; 
+}
+
+.bigBox .right h2{
+  font-weight: bold;
+  margin: 30px 0px;
+  font-size: 42px;
+}
+
+.bigBox .right p{
+  color: hsl(228, 12%, 48%);
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.bigBox .right h3{
+  color: hsl(158, 36%, 37%);
+  font-size: 32px;
+}
+
+.bigBox .right h3 span {
+  font-size: 18px;
+  margin-left: 30px;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);;
+}
+
+.bigBox .right button{
+  background-color: hsl(158, 36%, 37%);
+  color: #fff;
+  border: none;
+  padding: 10px 26px;
+  font-size: 21px;
+  margin-top: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.bigBox .right button:hover{
+  background-color: hsl(158, 40%, 17%);
+  transition: all 0.3s;
+}
+/* Start media for section bigBox */
+@media (max-width: 767px) {                  /* small screen rules */
+  .bigBox{
+    width: 100%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    top: 80%;
+  }
+
+  .bigBox .left{
+    width: 100%;
+    float: none;
+  }
+
+  .bigBox .left img{
+    width: 100%;
+  }
+
+  .bigBox .right{
+    width: 100%;
+    float: none;
+    padding: 30px;
+  }
+
+  .bigBox .right p{
+    font-size: 19px;
+  }
+
+  .bigBox .right .buttCenter{
+    text-align: center;
+  }
+
+  .bigBox .right .buttCenter button{
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {         /* Medium screen rules */
+  .bigBox{
+    width: 100%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    top: 80%;
+  }
+
+  .bigBox .left{
+    width: 100%;
+    float: none;
+  }
+
+  .bigBox .left img{
+    width: 100%;
+  }
+
+  .bigBox .right{
+    width: 100%;
+    float: none;
+    padding: 30px;
+  }
+
+  .bigBox .right p{
+    font-size: 19px;
+  }
+
+  .bigBox .right .buttCenter{
+    text-align: center;
+  }
+
+  .bigBox .right .buttCenter button{
+    width: 100%;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {         /* Large screen rules */
+    .bigBox{
+      width: 100%;
+      transform: translate(-50%, -50%);
+      background-color: hsl(0, 0%, 100%);
+      top: 80%;
+    }
+  
+    .bigBox .left{
+      width: 100%;
+      float: none;
+    }
+  
+    .bigBox .left img{
+      width: 100%;
+    }
+  
+    .bigBox .right{
+      width: 100%;
+      float: none;
+      padding: 30px;
+    }
+  
+    .bigBox .right p{
+      font-size: 19px;
+    }
+  
+    .bigBox .right .buttCenter{
+      text-align: center;
+    }
+  
+    .bigBox .right .buttCenter button{
+      width: 100%;
+    }
+  }
+}
+/* End Media for section bigBox */
+/* End Section bigBox */

@@ -1,0 +1,36 @@
+.home{
+    background-image: url(../images/cover.jpg);
+    background-size: 100% 100%;
+    height: 50vh;
+}
+
+.home .content{
+    color: #fff;
+    padding: 90px 0px;
+}
+
+.movies{
+    width: 2px;
+    height: 2px;
+    background-color: black;
+}
+
+.movies h2{
+    display: none;
+}
+
+.movies .box{
+    display: none;
+}
+
+.movies .box img{
+    margin: 30px 0px;
+    border-radius: 5px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.movies .box img:hover{
+    transform: scale(1.1, 1.1);
+    transition: all .5s;
+}
