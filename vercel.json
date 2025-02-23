@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/Amazon-Smile",
-      "destination": "/Static_Projects/Amazon-Smile/index.html"
-    }
-  ]
-}
