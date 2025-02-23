@@ -1,0 +1,34 @@
+.javascript-projects .left h2 i {
+  color: yellow;
+}
+
+.javascript-projects .left p {
+  font-size: 15px;
+  color: gray;
+}
+
+.javascript-projects .right img {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  animation: floatUpDown 2s infinite ease-in-out;
+  box-shadow: 1px 1px 10px 1px black;
+}
+
+@keyframes floatUpDown {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.javascript-projects .box {
+  margin: 5px 0px;
+}

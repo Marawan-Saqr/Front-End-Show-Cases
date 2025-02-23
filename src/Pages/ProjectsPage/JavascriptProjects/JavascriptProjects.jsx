@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
 import { static_projects } from '../../../data.js';
 import { Container, Row, Col } from 'react-bootstrap';
-import './StaticProjects.css';
+import './JavascriptProjects.css';
 
 
-const StaticProjects = () => {
+const JavascriptProjects = () => {
+
+  // Component States
   const [projects] = useState(static_projects);
 
   return (
     <div className="static-projects-card mt-5 mb-5">
       <Container>
-        <h2 className='text-center'><i className="fa-brands fa-html5"></i> Static Projects</h2>
+        <h2 className='text-center'><i className="fa-brands fa-html5"></i> JavaScript Projects</h2>
         <Row>
           {projects.map((project, index) => (
             <Col lg={3} key={index}>
@@ -32,4 +34,4 @@ const StaticProjects = () => {
   );
 };
 
-export default StaticProjects;
+export default JavascriptProjects;

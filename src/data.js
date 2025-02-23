@@ -270,3 +270,13 @@ export const static_projects = [
     destination: "/Static_Projects/Widget-Login/index.html"
   },
 ];
+
+
+export const javaScriptProjects = [
+  {
+    img: "/images/amazon-smile.png",
+    title: "Amazon Smile",
+    description: "Landing Page For Amazon Smile",
+    destination: "/Static_Projects/Amazon-Smile/index.html"
+  },
+]
