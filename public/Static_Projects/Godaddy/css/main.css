@@ -1,0 +1,568 @@
+/* start personal theme */
+body{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.display{
+    display: none;
+}
+/* end personal theme */
+
+/* start nav */
+nav .navbar-brand i{
+    margin-right: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+nav .navbar-brand{
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+}
+
+nav .navbar-brand:after{
+    content: "United Arab Emrates";
+    position: absolute;
+    color: #5f5f5f;
+    font-size: 11px;
+    top: 44px;
+    left: 94px;
+}
+/* start media for nav */
+@media(min-width: 992px) and (max-width: 1200px){          /* meduim screen rules */
+    nav .navbar-brand{
+        font-size: 20px !important;
+    }
+}
+/* end media for nav */
+/* end nav */
+
+/* start header */
+header{
+    background-image: url(../images/Header.jpg);
+    background-size: 100% 100%;
+    height: 620px;
+    margin-top: 10px;
+}
+
+header .bar ul{
+    list-style-type: none;
+}
+
+header .bar ul li{
+    display: inline-block;
+    margin-right: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+header .bar ul li:hover{
+    transform: scale(1.1, 1.1);
+    transition: all .5s;
+    color: black;
+    text-decoration: underline;
+}
+
+header .content{
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+header .content h1{
+    margin: 23px 0px;
+    font-size: 59px;
+}
+
+header .content button{
+    background-color: black;
+    color: #fff;
+    padding: 5px 22px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+header .content button:hover{
+    background-color: #fff;
+    color: black;
+    transition: all .5s;
+}
+
+/* start media for header */
+@media (max-width: 767px) {                                        /* small screen rules */
+    header{
+        height: 660px;
+    }
+
+    header .bar ul li{
+        display: block;
+    }
+
+    header .bar ul li[class="special"]{
+        display: none;
+    }
+
+    header .content{
+        top: 20px;
+    }
+
+    header .content h1{
+        margin: 23px 0px;
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {                /* meduim screen rules */
+    header .bar ul li{
+        display: block;
+    }
+
+    header .bar ul li[class="special"]{
+        display: none;
+    }
+
+    header .content h1{
+        margin: 23px 0px;
+        font-size: 30px;
+    }
+}
+/* end media for header */
+/* end header */
+
+/* start section advices */
+.advices{
+    margin: 40px 0px;
+}
+
+.advices .box h6{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.advices .box p{
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+}
+/* start media for section advices */
+@media (max-width: 767px) {                                   /* small screen rules */
+    .advices .box{
+        margin-bottom: 50px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {            /* meduim screen rules */
+    .advices .box h6{
+        font-size: 12px;
+    }
+
+    .advices .box p{
+        font-size: 12px;
+    }
+}
+/* end media for section advices */
+/* end section advices */
+
+
+/* start section menu */
+.menu{
+    margin : 10px 0px;
+    transition: all .5s;
+    border-bottom: 1px solid black;
+}
+
+.menu .left ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.menu .left ul li{
+    display: inline-block;
+    margin-right: 40px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.menu .left ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu .left ul li:hover{
+    border-bottom: 1px solid aqua;
+    transition: all .5s;
+}
+
+.menu .right button{
+    background-color: black;
+    color: #fff;
+    padding: 5px 22px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
+}
+/* start media for section menu */
+@media(max-width: 767px) {                                    /* small screen rules */
+    .menu .left{
+        text-align: center;
+    }
+
+    .menu .left ul li{
+        margin-right: 10px;
+    }
+
+    .menu .right{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {            /* meduim screen rules */
+    .menu .left ul li{
+        margin-right: 20px;
+    }
+}
+/* end media for section menu */
+/* end section menu */
+
+/* start section powerfull */
+.powerfull{
+    margin-top: 120px;
+}
+
+.powerfull .left button{
+    padding: 10px 46px;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.powerfull .left button:hover{
+    background-color: black;
+    color: #fff;
+    transform: scale(1.1, 1.1);
+    transition: all .5s;
+}
+
+.powerfull .right img{
+    border-radius: 3px;
+}
+/* start media for section powerfull */
+@media (max-width: 767px) {                      /* small screen rules */
+    .powerfull .left{
+        margin-bottom: 30px;
+    }
+}
+/* end media for section powerfull */
+/* end section powerfull */
+
+/* start section slider */
+.slider{
+    margin-top: 95px;
+    background-color: #ffdde3;
+    padding: 40px
+}
+
+.slider h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.slider .slider-box .content{
+    overflow: hidden;
+}
+
+.slider .slider-box img{
+    border-radius: 15px;
+    transition: all .5s;
+    cursor: pointer;
+    width: 93%;
+}
+
+.slider .slider-box img:hover{
+    transform: scale(1.1, 1.1);
+    transition: all .5s;
+}
+/* end section slider */
+
+
+
+/* start section marketing */
+.marketing{
+    margin-top: 120px;
+}
+
+.marketing .left button{
+    padding: 10px 46px;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.marketing .left button:hover{
+    background-color: black;
+    color: #fff;
+    transform: scale(1.1, 1.1);
+    transition: all .5s;
+}
+
+.marketing .right img{
+    border-radius: 5px;
+}
+/* start media for section marketing */
+@media (max-width: 767px) {                      /* small screen rules */
+    .marketing .left{
+        margin-bottom: 30px;
+    }
+}
+/* end media for section marketing */
+/* end section marketing */
+
+/* start section marketing2 */
+.marketing2{
+    margin-top: 120px;
+}
+
+.marketing2 .right button{
+    padding: 10px 46px;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.marketing2 .right button:hover{
+    background-color: black;
+    color: #fff;
+    transform: scale(1.1, 1.1);
+    transition: all .5s;
+}
+/* start media for section marketing2 */
+@media (max-width: 767px) {                       /* small screen rules */
+    .marketing2 .left{
+        margin-bottom: 30px;
+    }
+}
+/* end media for section marketing2 */
+/* end section marketing2 */
+
+/* start section support */
+.support{
+    margin-top: 130px;
+    background-color: #cfeaea;
+    padding: 48px 0px;
+}
+
+.support h6{
+    border-left: 4px solid #5c5cf9;
+    padding-left: 5px;
+}
+
+.support h5 span{
+    background-image: linear-gradient(45deg, #0268a7, transparent);
+}
+
+.support h1{
+    font-size: 45px;
+}
+
+.support p{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.support button{
+    padding: 10px 46px;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.support button:hover{
+    background-color: black;
+    color: #fff;
+    transform: scale(1.1, 1.1);
+    transition: all .5s;
+}
+/* start media for section support */
+@media (max-width: 767px) {                      /* small screen rules */
+    .support .left{
+        margin-bottom: 70px;
+    }
+}
+/* end media for section support */
+/* end section support */
+
+/* start section questions */
+.questions{
+    margin: 90px 0px;
+}
+
+.questions h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.questions h1 a{
+    color: black;
+}
+
+.questions h1 i{
+    font-size: 29px;
+    margin-left: 11px;
+    border-radius: 50%;
+    padding: 14px;
+    background-color: #3c3c3c14;
+    cursor: pointer;
+    animation-name: arrow-topBottom;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrow-topBottom{
+    25%{
+        position: relative;
+        top: 5px;
+    }
+
+    50%{
+        position: relative;
+        top: 10px;
+    }
+
+    75%{
+        position: relative;
+        top: 15px;
+    }
+
+    100%{
+        position: relative;
+        top: 20px;
+    }
+}
+
+.questions .down{
+    margin: 60px 0px;
+}
+
+.questions .down .q-one{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.questions .down .q-two{
+    border-bottom: 1px solid black;
+}
+
+.questions .down .q-three{
+    border-bottom: 1px solid black;
+}
+
+.questions .down .q-four{
+    border-bottom: 1px solid black;
+}
+
+.questions .down .q-five{
+    border-bottom: 1px solid black;
+}
+
+.questions .down h3{
+    margin: 40px 0px;
+}
+
+.questions .down i{
+    cursor: pointer;
+}
+/* end section questions */
+
+/* start section window */
+.window h6{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.window h1{
+    margin-top: 78px;
+    background: #00bfbf;
+    color: #fff;
+    padding: 28px 0px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 1px 1px 9px 1px black;
+}
+/* end section window */
+
+/* start footer */
+footer{
+    background-color: #232323;
+    padding: 30px 0px;
+    margin-top: -7px;
+}
+
+footer h4{
+    color: #fff;
+}
+
+footer h1{
+    color: #fff;
+    font-size: 64px;
+}
+
+footer h1 span{
+    color: blue;
+}
+
+footer h1 span i{
+    margin-left: 10px;
+}
+
+footer p{
+    color: #fff;
+    margin: 30px 0px;
+    padding: 20px 0px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+footer ul{
+    list-style-type: none;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer ul h6{
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+footer ul li{
+    font-size: 13px;
+    line-height: 3.2;
+}
+/* end footer */

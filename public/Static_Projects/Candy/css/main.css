@@ -1,0 +1,185 @@
+/* start header */
+header{
+    background-color: palevioletred;
+}
+
+header .logo{
+    background-image: linear-gradient(to right, red, black);
+    border-radius: 50%;
+}
+
+header .navbar ul{
+    list-style-type: none;
+}
+
+header .navbar ul li{
+    display: inline-block;
+    color: #4c4c4c;
+    margin-right: 10px;
+    transition: .5s;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+header .navbar ul li:hover{
+    color: #fff;
+    background-image: linear-gradient(to right, red, brown);
+    transition: .5s;
+    transform: scale(1.2, 1.2);
+}
+
+header .content{
+    margin: 40px 0px;
+}
+
+header .content .left h1{
+    color: #021ee6;
+}
+
+header .content .left button{
+    border-radius: 10px;
+    margin-right: 4px;
+}
+/* start media for header */
+@media(max-width: 576px){                               /* small screen rules */
+    header .logo{
+        background-image: none;
+    }
+
+    header .content{
+        margin: 15px 0px;
+    }
+
+    header .content .left{
+        text-align: center;
+    }
+
+    header .content .left h1{
+        font-size: 30px;
+    }
+}
+
+@media(min-width:577px) and (max-width: 768px){          /* meduim screen rules */
+    header .logo{
+        background-image: none;
+    }
+
+    header .content{
+        margin: 15px 0px;
+    }
+
+    header .content .left{
+        text-align: center;
+    }
+
+    header .content .left h1{
+        font-size: 30px;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 992px) {
+    header .content .left h1{
+        font-size: 30px;
+    }
+}
+/* end media for header */
+/* end header */
+
+/* start section products */
+.products h2{
+    color: #021ee6;
+    text-decoration: underline #ff2f00;
+}
+
+.products .my-cursoul{
+    margin-top: 20px;
+}
+
+.products .my-cursoul img{
+    border-radius: 5px;
+}
+
+.products .my-cursoul button{
+    box-shadow: 1px 1px 3px 1px black;
+}
+/* start media for section products */
+@media(min-width: 577px) and (max-width: 768px){
+    .products h6{
+        font-size: 12px;
+    }
+
+    .products p{
+        font-size: 10px;
+    }
+
+    .products button{
+        font-size: 5px;
+    }
+}
+
+@media(min-width: 752px) and (max-width: 992px){
+    .products h6{
+        font-size: 12px;
+    }
+
+    .products p{
+        font-size: 10px;
+    }
+
+    .products button{
+        font-size: 5px;
+    }
+}
+/* end media for section products */
+/* end section products */
+
+/* start section about-us */
+.about-us{
+    margin: 120px 0px;
+}
+
+.about-us .left img{
+    border-radius: 163px;
+}
+
+.about-us .right h2{
+    color: #021ee6;
+    text-decoration: underline #ff2f00;
+}
+/* end section about-us */
+
+/* start section qualities */
+.qualities .box{
+    background-color: gray;
+    padding: 10px 5px;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.qualities .box:hover{
+    background-color: pink;
+    color: #fff;
+    transition: all .5s;
+}
+
+.qualities .box i{
+    font-size: 53px;
+}
+/* start media for section qualities */
+@media(max-width:576px){                     /* small screen rules */
+    .qualities .box{
+        margin: 10px 0px;
+    }
+}
+/* end media for section qualities */
+/* end section qualities */
+
+/* start section video */
+.video{
+    margin: 80px 0px;
+}
+
+
+/* end section video */

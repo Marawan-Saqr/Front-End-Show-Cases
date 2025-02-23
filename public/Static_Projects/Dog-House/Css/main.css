@@ -1,0 +1,818 @@
+/* start with personal themes */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial, tahoma, sans-serif;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.clearFix{
+    clear: both;
+}
+
+.container{
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.h1{
+    font-size: 2em;
+}
+
+/*end my personal theme */
+/* start header */
+header{
+    background: url(../Images/Header.jpg);
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+}
+
+header .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+header .overlay .container .logo{
+    padding-top: 20px;
+}
+
+header .overlay .container .logo h1{
+    color: #ffb100;
+    font-size: 28px;
+}
+
+header .overlay .container .logo h1 span{
+    color: black;
+}
+
+header .overlay .container .navbar{
+    padding-top: 20px;
+}
+
+header .overlay .container .navbar ul{
+    list-style: none;
+    color: #fff;
+}
+
+header .overlay .container .navbar ul li{
+    display: inline-block;
+    cursor: pointer;
+}
+
+header .overlay .container .navbar ul li:hover{
+    color: #ffb100;
+}
+
+header .overlay .container .navbar ul i{
+    cursor: pointer;
+}
+
+header .overlay .container .navbar ul li:not(.last){
+    margin-right: 10px;
+}
+
+header .overlay .container .OurPage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-83%,-50%);
+}
+
+header .overlay .container .OurPage h2{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+header .overlay .container .OurPage h2 span{
+    color: #ffb100;
+}
+
+header .overlay .container .OurPage p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+header .overlay .container .OurPage button{
+    color: #fff;
+    padding: 10px 23px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #ffb100;
+    border: 1px solid #ffb100;
+}
+
+header .overlay .container .OurPage button:hover{
+   background-color: orangered;
+   border: 1px solid orangered;
+}
+
+/* media query for header */
+
+@media (max-width: 767px) {                                    /* mobile and tablet rules */
+    header .overlay .container .logo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    header .overlay .container .navbar{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    header .overlay .container .OurPage{
+        margin-top: 30px;
+    }
+
+    header .overlay .container .OurPage p{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {           /* meduim screens */
+    header .overlay .container .OurPage{
+        width: 57%;
+    }
+}
+
+/* media query for header */
+/* end header */
+
+
+/* start section about-us */
+
+.about-us{
+    background-color: #dedede;
+    padding: 10px 0px 40px 0px;
+}
+
+.about-us .container .left{
+    margin-top: 50px;
+}
+
+.about-us .container .left .h1{
+    margin-bottom: 10px;
+}
+
+.about-us .container .left .h1 span{
+    color: #ffb100;
+}
+
+.about-us .container .left h3{
+    word-spacing: 7px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.about-us .container .left p{
+    margin-bottom: 20px;
+}
+
+.about-us .container .left button{
+    color: #fff;
+    padding: 10px 23px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #ffb100;
+    border: 1px solid #ffb100;
+}
+
+.about-us .container .left button:hover{
+    background-color: orangered;
+}
+
+.about-us .container .right{
+    margin-top: 50px;
+}
+
+
+.about-us .container .right{
+    width: 50%;
+}
+
+.about-us .container .right img{
+    width: 428px;
+    height: 222px;
+    border-radius: 50%;
+}
+
+/* media for section about-us */
+
+@media (max-width: 767px) {      /* mobile and tablet screens */
+    .about-us .container .left{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-us .container .right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-us .container .right img{
+        border-radius: 0%;
+        border: 1px solid black;
+        width: 100%;
+    }
+}
+
+/* media for section about-us */
+/* end section about-us */
+
+/* start section our-service */
+
+.our-services{
+    margin-top: 30px;
+}
+
+.our-services .container .h1{
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.our-services .container p{
+    margin-bottom: 30px;
+    color: gray;
+}
+
+.our-services .container .box{
+    width: 33.33333%;
+}
+
+.our-services .container .box img{
+    width: 100%;
+    padding-right: 10px;
+    border-radius: 29px;
+}
+
+.our-services .container .box h2{
+    font-weight: 100;
+    font-size: 21px;
+    color: #3cce00;
+    margin-bottom: 5px;
+}
+
+.our-services .container .box p{
+    color: gray;
+}
+
+/* media for section our-services */
+
+@media (max-width: 767px) {
+    .our-services .container h2{
+        font-size: 24px;
+    }
+
+    .our-services .container p{
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .our-services .container .box{
+        width: 100%;
+        float: none;
+    }
+}
+
+/* end section our-service */
+/* start section save */
+
+.save{
+    background-color: #dedede;
+    padding: 10px 0px 40px 0px;
+}
+
+.save .container .left{
+    margin-top: 50px;
+    width: 50%;
+}
+
+.save .container .left img{
+    width: 428px;
+    height: 222px;
+    border-radius: 50%;
+}
+
+.save .container .right{
+    margin-top: 50px;
+}
+
+.save .container .right .h1{
+    margin-bottom: 10px;
+}
+
+.save .container .right .h1 span{
+    color: #ffb100;
+}
+
+.save .container .lives{
+    margin: 10px 2px 0px 0px;
+}
+
+.save .container .lives .box{
+    margin: 0px 7px;
+}
+
+.save .container .lives .box h2{
+    margin-bottom: 4px;
+}
+
+.save .container .lives .box p{
+    text-align: center;
+    color: #ffb100;
+    font-size: 25px;
+}
+
+/* media query for section save */
+
+@media (max-width: 767px) {                   /* mobile and tablet screens */
+    .save .container .left{
+        float: none;
+        width: 100%;
+    }
+
+    .save .container .left img{
+        border-radius: 0%;
+        border: 1px solid black;
+        width: 100%;
+    }
+
+    .save .container .right{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .save .container .lives .box{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+/* media query for section save */
+/* end section save */
+
+/* start section employee */
+
+.Employee{
+    margin-top: 30px;
+}
+
+.Employee .h1{
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.Employee .h1 span{
+    color: #ffb100; 
+} 
+
+.Employee p{
+    line-height: 1.4; 
+}
+
+.Employee .box{
+    margin-top: 30px;
+    position: relative;
+}
+
+.Employee .box img{
+    width: 156px;
+    height: 146px;
+    border-radius: 65%;
+}
+
+.Employee .box h2{
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+.Employee .box p{
+    margin-top: 10px;
+}
+
+
+
+/* media for section Employee */
+
+@media (max-width: 767px) {                                    /* mobile and tablet rules */
+   .Employee .box{
+       float: none;
+       width: 100%;
+   }
+}
+
+@media (min-width: 992px) {                                    /* meduim screen rules */
+    .Employee .box:not(.last){
+        margin-right: 1%;
+    }
+
+    .Employee .box{
+        width: 32.66666%;
+    }
+
+    .Employee .box.first{
+        left: 33.66666%;
+    }
+
+    .Employee .box.second{
+        right: 33.66666%;
+    }
+}
+/* end section employee */
+/* start section support */
+
+.support{
+    margin-top: 30px;
+}
+
+.support .container .h1{
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+.support .container .h1 span{
+    color: #ffb100; 
+}
+
+.support .container p{
+    font-size: 20px; 
+}
+
+.support .container .box{
+    background-color: #f5f4f4;
+    width: 23%; 
+    margin-left: 7.66666%;
+    margin-top: 20px;
+    border: 1px solid #cecbcb; 
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.support .container .box:not(.last){ 
+    margin-right: 1%;
+}
+
+.support .container .box img{
+    width: 100%;
+    height: 222px;
+}
+
+.support .container .box h2{
+    color: #ffb100;
+    font-size: 19px;
+    margin: 8px 0px;
+}
+
+.support .container .box p{
+    font-size: 16px;
+    margin: 8px 0px;
+}
+
+.support .container .box button{
+    color: #fff;
+    padding: 10px 23px;
+    font-size: 9px;
+    cursor: pointer;
+    background-color: #ffb100;
+    border: 1px solid #ffb100;
+}
+
+/* media for section support */
+
+@media (max-width: 767px) {                                    /* mobile and tablet rules */
+   .support .container .box{
+       float: none;
+       width: 58%;
+       margin-left: 21%;
+       padding: 9px 10px 42px 10px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {             /* small screen rules */
+    .support .container .box{
+        float: none;
+        width: 58%;
+        margin-left: 21%;
+        padding: 9px 10px 42px 10px;
+    }
+}
+
+/* media for section support */
+/* end section support */
+/* start footer */
+
+footer{
+    background-color: #333;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer .container .logo h2{
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+footer .container .logo i{
+    color: #ffb100;
+    font-size: 32px;
+}
+
+footer .container .logo p{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+footer .container .logo h3{
+    color: #fff;
+    margin: 20px 0px 10px 0px;
+}
+
+footer .container .logo i[class="fab fa-skype"]{
+    color: #fff;
+    margin-right: 10px;
+    font-size: 19px;
+}
+
+footer .container .logo i[class="fab fa-facebook-f"]{
+    color: #fff;
+    margin-right: 10px;
+    font-size: 19px;
+}
+
+footer .container .logo i[class="fab fa-instagram"]{
+    color: #fff;
+    margin-right: 10px;
+    font-size: 19px;
+}
+
+footer .container .logo i[class="fab fa-whatsapp"]{
+    color: #fff;
+    font-size: 19px;
+}
+
+footer .container .contact{
+    padding-left: 40px;
+}
+
+footer .container .contact i{
+    color: #fff;
+}
+
+footer .container .contact h2{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer .container .contact p{
+    color: #fff;
+    line-height: 1.9;
+}
+
+footer .container .form h2{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer .container .form input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+footer .container .form button{
+    color: #fff;
+    padding: 10px 23px;
+    font-size: 11px;
+    cursor: pointer;
+    background-color: #ffb100;
+    border: 1px solid #ffb100;
+}
+
+/* media for footer */
+
+@media (max-width: 767px) {                                    /* mobile and tablet rules */
+    footer .container .logo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    footer .container .contact{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    footer .container .form{
+        width: 50%;
+        float: none;
+        margin-top: 20px;
+        margin-left: 25%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {       /* small screen rules */
+    footer .container .logo{
+        width: 50%;
+    }
+
+    footer .container .contact{
+        width: 50%;
+    }
+
+    footer .container .form{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {     /* meduim screen rules */
+    footer .container .logo{
+        width: 50%;
+    }
+
+    footer .container .contact{
+        width: 50%;
+    }
+
+    footer .container .form{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query for all screen sizes */
+
+@media (max-width: 767px) {                                    /* mobile and tablet rules */
+   
+}
+
+@media (min-width: 768px) and (max-width: 991px) {             /* small screen rules */
+    .container{
+        width: 750px;
+    }
+
+    header .overlay .container .logo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    header .overlay .container .navbar{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .about-us .container .left{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-us .container .right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-us .container .right img{
+        border-radius: 0%;
+        border: 1px solid black;
+        width: 100%;
+    }
+
+    .our-services .container p{
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .save .container .left{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .save .container .right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .save .container .lives{
+        float: none;
+        text-align: center;
+    }
+
+    .save .container .lives .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .Employee .box{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {             /* meduim screen rules */
+    .container{
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {                                    /* large screen rules */
+    .container{
+        width: 1170px;
+    }
+}
+
+/* Media Query for all screen sizes */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,202 @@
+/* Start My Personal Theme */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto; 
+}
+/* End My Personal Theme */
+
+/* Start header */
+header {
+  margin: 10px 0px;
+}
+
+header .content-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header .content-holder .logo {
+  width: 100px;
+}
+
+header .content-holder .logo img {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+header .content-holder .links ul {
+  list-style-type: none;
+}
+
+header .content-holder .links ul li {
+  display: inline-block;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+header .content-holder .links ul li:hover {
+  background-color: black;
+  color: #fff;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+/* Start Media For header */
+@media (min-width: 400px) and (max-width: 468px) {
+
+header .content-holder {
+  justify-content: center;
+}
+
+  header .content-holder .logo {
+    width: 100px;
+    margin: auto;
+  }
+}
+/* End Media For header */
+/* End header */
+
+/* Start Section post-title */
+.post-title {
+  margin: 60px 0px;
+}
+
+.post-title p {
+  color: gray;
+  width: 50%;
+  padding-bottom: 30px;
+}
+
+.post-title .image {
+  width: 100%;
+}
+
+.post-title .image img {
+  max-width: 100%;
+}
+/* Start Media For Section post-title */
+@media (max-width: 767px) {
+  .post-title h1 {
+    text-align: center;
+  }
+
+  .post-title p {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .post-title h1 {
+    text-align: center;
+  }
+
+  .post-title p {
+    width: 100%;
+    text-align: center;
+  }
+}
+/* End Media For Section post-title */
+/* End Section post-title */
+
+/* Start Section news */
+.news p {
+  padding: 10px 0px;
+  font-weight: bold;
+  font-size: 17px;
+  color: gray;
+  text-align: center;
+}
+/* End Section news */
+
+/* Start Section two-images */
+.two-images {
+  margin: 60px 0px;
+}
+
+.two-images .row-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-images .left-image,
+.two-images .right-image {
+  width: 48%;
+}
+
+.two-images .left-image img,
+.two-images .right-image img {
+  max-width: 100%;
+}
+/* End Section two-images */
+
+/* Start Section three-images */
+.three-images {
+  margin: 60px 0px;
+}
+
+.three-images h2 {
+  padding-bottom: 20px;
+}
+
+.three-images .row-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.three-images .box-image {
+  width: 32.3%;
+}
+
+.three-images .box-image img {
+  max-width: 100%;
+}
+/* End Section three-images */
+
+/* Start footer */
+footer {
+  background-color: antiquewhite;
+  padding: 30px;
+}
+
+footer .row-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .row-footer .box h4 {
+  font-size: 25px;
+  padding-bottom: 15px;
+  color: #747474;
+}
+
+footer .row-footer .box ul {
+  list-style-type: none;
+}
+
+footer .row-footer .box ul li {
+  font-size: 17px;
+  padding: 4px 0px;
+  color: slategray;
+}
+/* End footer */

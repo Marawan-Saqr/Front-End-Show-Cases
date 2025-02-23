@@ -1,0 +1,608 @@
+/* start personal theme */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial, tahoma;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.box1{
+    width: 25%;
+}
+
+.box2{
+    width: 50%;
+}
+
+.box3{
+    width: 75%;
+}
+
+.box4{
+    width: 100%;
+}
+
+.hidden{
+    display: none;
+}
+/* end personal theme */
+/* start header */
+
+header{
+    background-color: #efc6dd;
+    min-height: 50px;
+    padding: 20px;
+}
+
+header .logo h1{
+    background-color: #004eff;
+    padding: 10px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+header .logo h1:hover{
+   color:rgb(255, 187, 0);
+}
+
+header .logo2{
+    margin-left: 10px;
+}
+
+header .logo2 h2{
+    color: #0f3bdc;
+}
+
+header .logo2 p{
+    color: #0f3bdc;
+    margin-left: 5px;
+    font-style: italic;
+}
+
+header .logo2 p mark{
+    background-color: #fd76ff;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+/* media for header */
+
+@media (max-width: 767px) {                            /* mobile and tablets screens rules */
+    header .logo{
+        text-align: center;
+        width: 100%;
+    }
+
+    header .logo h1{
+        background-color: #efc6dd;
+        color: crimson;
+    }
+
+    header .logo2{
+        margin: 10px 0px 0px 0px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/* media for header */
+/* end header */
+
+/* start nav */
+
+nav{
+    background-color: #004eff;
+}
+
+nav .container ul{
+    color: #fff;
+}
+
+nav .container ul li{
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+}
+
+nav .container ul li[class="one"]{
+    margin-right: 20px;
+}
+
+nav .container ul li[class="two"]{
+    margin-right: 20px;
+}
+
+nav .container ul li:hover{
+    background-color: rgb(255, 187, 0);
+}
+
+/* media for nav */
+
+@media (max-width: 767px) {                            /* mobile and tablets screens rules */
+    nav .container ul{
+        display: none;
+    }
+
+    nav .container i{
+       color: #fff;
+       padding: 10px;
+       cursor: pointer;
+    }
+}
+
+@media (min-width: 768px) {                            /* small screens rules */
+    nav .container i{
+        display: none;
+     }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {     /* small and meduim screens rules */
+    nav .container ul{
+        text-align: center;
+    }
+}
+
+/* media for nav */
+/* end nav */
+
+/* start div gray */
+
+.gray .container h4{
+    color: #004eff;
+    font-weight: 300;
+    margin: 8px 0px 8px 7px;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+.gray .container h4:hover{
+    color: rgb(255, 187, 0);
+}
+
+/* media for div gray */
+
+@media (max-width: 767px) {                            /* mobile and tablets screens rules */
+    .gray .container h4{
+        color: #004eff;
+        font-size: 13px;
+        margin: 5px;
+        text-align: center;
+        float: none;
+    }
+}
+
+/* media for div gray */
+/* end div gray */
+
+/* start aside-left */
+
+aside-left{
+    width: 25%;
+}
+
+aside-left .container ul{
+    margin-top: 20px;
+    color: #004eff;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+    border: 2px solid #e0c3c3;
+}
+
+aside-left .container ul li{
+    padding: 3px;
+    cursor: pointer;
+}
+
+aside-left .container ul li:hover{
+    background-color: #004eff;
+    color: #fff;
+}
+
+aside-left .container h4{
+    background-color: #ff3535;
+    color: #fff;
+    padding: 4px;
+    font-weight: 400;
+}
+
+aside-left .container p{
+    color: #000;
+    background-color: #d04747;
+    font-size: 13px;
+    padding: 11px;
+}
+
+/* start media for aside-left */
+
+@media (max-width: 767px) {                                /* mobile and tablets screens rules */
+    aside-left{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {         /* small screen rules */
+    aside-left{
+        width: 50%;
+    }
+}
+
+/* end media for aside-left */
+/* end aside-left */
+
+/* start aside-mid */
+
+aside-mid{
+    width: 50%;
+}
+
+aside-mid .h1{
+    margin-top: 23px;
+}
+
+aside-mid img{
+    margin-top: 5px;
+    width: 100%;
+    height: 71px;
+}
+
+aside-mid ul{
+    margin: 20px 0px 0px 30px;
+}
+
+aside-mid ul li{
+    padding-bottom: 10px;
+}
+
+aside-mid ul li span{
+    color: #ef3434;
+}
+
+/* start media for aside-mid */
+
+@media(max-width: 767px) {                                 /* mobile and tablet screen rules */
+    aside-mid{
+        width: 100%;
+        float: none;
+    }
+
+    aside-mid .h1{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    aside-mid p{
+        font-size: 13px;
+        padding-left: 11px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px){           /* small screen rules */
+    aside-mid{ 
+        width: 100%;
+        float: none;
+    }
+
+    aside-mid .h1{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    aside-mid p{
+        font-size: 13px;
+        padding-left: 11px;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px){         /* meduim screen rules */
+    aside-mid .h1{
+        font-size: 19px;    
+    }
+
+    aside-mid p{
+        font-size: 15px; 
+    }
+}
+
+/* end media for aside-mid */
+/* end aside-mid */
+
+/* start aside right */
+
+aside-right{
+    width: 25%;
+}
+
+aside-right .container h4{
+    margin-top: 20px;
+    background-color: #004eff;
+    color: #fff;
+    padding: 4px;
+    font-weight: 400;
+}
+
+aside-right .container .downe{
+    border: 1px solid gray;
+}
+
+aside-right .container .downe .down{
+    padding: 10px;
+    background-color: #9df7f3;
+}
+
+aside-right .container .downe .down h5{
+    color: #ef3434;
+    padding: 10px 0px 10px 0px;
+}
+
+aside-right .container .downe .down p{
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+aside-right .container .downe .down p strong{
+    font-size: 12px;
+}
+
+aside-right .container .downe .down p small{
+    color: #ef3434;
+    font-size: 11px;
+}
+
+aside-right .container .downe .down img{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+aside-right .container p[class="last"]{
+    color: gray;
+    font-size: 13px;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+/* media for aside-right */
+
+@media(max-width: 767px){                                   /* mobile and tablets screen rules */
+    aside-right{
+        display: none;
+    }
+}
+
+@media(min-width: 768px) and (max-width:991px){             /* small screen rules */
+    aside-right{
+        width: 50%;
+    }
+}
+
+/* media for aside-right */
+/* end aside right */
+
+/* start div sign-up */
+
+hr[class="second"]{
+    margin-top: 20px;
+    color: gray;
+}
+
+.sign-up .container .h1{
+    color: gray;
+    margin-top: 20px;
+}
+
+.sign-up .container p{
+    color: #ef3434;
+    margin-top: 10px;
+}
+
+.sign-up .container form{
+    margin-top: 40px;
+}
+
+.sign-up .container form label{
+    color: #004eff;
+    font-size: 15px;
+}
+
+.sign-up .container form input{
+    display: block;
+    margin: 5px 0px 10px 0px;
+    border: 1px solid #004eff;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.sign-up .container form input[class="click"]{
+    background-color: orangered;
+    color: #fff;
+    cursor: pointer;
+    padding: 6px 24px;
+    font-size: 15px;
+}
+
+/* media for div sign-up */
+
+@media(max-width: 767px) {                                   /* mobile and tablets rules */
+    .sign-up .container .h1{
+        font-size: 15px;
+    }
+
+    .sign-up .container p{
+        font-size: 13px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {           /* small screen rules */
+    .sign-up .container .h1{
+        font-size: 15px;
+    }
+
+    .sign-up .container p{
+        font-size: 13px;
+    }
+
+    .sign-up .container form{
+        background-color: #e8e8e8;
+        padding: 10px;
+        border: 1px solid black;
+    }
+
+    .sign-up .container form label{
+        font-size: 12px;
+    }
+
+    .sign-up .container form input{
+        display: inline-block;
+    }
+}
+
+/* media for div sign-up */
+/* end div sign-up */
+
+/* start footer */
+
+footer{
+    margin-top: 30px;
+    background-color: #333;
+    padding: 10px;
+}
+
+footer .h1{
+    font-weight: 300;
+    color: #fff;
+    background-color: #151313;
+    font-size: 18px;
+}
+
+/* end footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query for screen sizes */
+
+@media (max-width: 767px) {                            /* mobile and tablets screens rules */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {     /* small screens rules */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {     /* meduim screens rules */
+
+}
+
+@media (min-width: 1200px) {                            /* large screens rules */
+
+}
+
+/* media query for screen sizes */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

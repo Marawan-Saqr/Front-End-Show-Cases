@@ -1,0 +1,294 @@
+/* start personal themes */
+*{
+    font-family: arial, tahoma;
+    margin: 0;
+    padding: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+/* end personal theme */
+/* start the first part in the website header */
+
+header{
+   background-image: url(../Images/0l0kzYB.jpg);
+   background-size: cover;
+   min-height: 550px;
+   border-radius: 6% 6% 0% 0%;
+}
+header .top{
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+}
+
+header .top .logo{
+    padding-top: 20px;
+}
+
+header .top .logo h1{
+    color: #fff;
+    float: left;
+    width: 30%;
+    cursor: pointer;
+}
+
+header .top .logo h1:hover{
+    color: #f3045c;
+}
+
+header .top .logo ul{
+    color: #fff;
+    float: right;
+    list-style: none;
+    font-size: larger;
+    padding-top: 5px;
+}
+
+header .top .logo ul li{
+    display: inline-block;
+    padding-right: 27px;
+    cursor: pointer;
+}
+
+header .top .logo ul li:hover{
+    text-decoration: underline;
+    color: #f3045c;
+    
+}
+
+header .meduim{
+    position: absolute;
+    top: 195px;
+    left: 133px;
+}
+
+header .meduim h2{
+    color: #fff;
+    font-size: 43px;
+}
+
+header .meduim p{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 10px;
+}
+
+header .meduim button{
+    border-radius: 30px;
+    color: #fff;
+    background-color: #f3045c;
+    border: none;
+    margin-top: 25px;
+    font-size: 17px;
+    padding: 9px 21px;
+    cursor: pointer;
+}
+
+/* end header */
+/* start new div */
+
+.big{
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+}
+
+.big .left{
+    margin-top: 20px;
+    width: 50%;
+    float: left;
+} 
+
+.big .left p{
+    margin-top: 10px;
+    color: #b5a8a8;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.big .left a{
+    color: #f3045c; 
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 5px;
+    display: block;
+}
+
+.big .left button{
+    border-radius: 30px;
+    color: #fff;
+    background-color: #f3045c;
+    border: none;
+    margin-top: 18px;
+    font-size: 17px;
+    padding: 9px 21px;
+    cursor: pointer;
+}
+
+.big .right{
+    margin-top: 20px;
+    width: 50%;
+    float: right;
+}
+
+.big .right img{
+    width: 277px;
+    height: 219px;
+    border-radius: 9%;
+    border: 1px solid deeppink;
+}
+
+/* end this div */
+/* start new div */
+
+.provides{
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+}
+
+.provides h1{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 34px;
+    font-family: system-ui;
+}
+
+.provides h2{
+    text-align: center;
+    font-size: 23px;
+}
+
+.provides .collection{
+    margin-left: 18px;
+}
+
+.provides .collection .box{
+    float: left;
+}
+
+.provides .collection .box img{
+    width: 251px;
+    height: 200px;
+    margin-right: 14px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.provides .collection .box p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: pictograph;
+}
+
+.provides .but{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.provides .but button[class="F"]{
+    border-radius: 30px;
+    color: #f3045c; 
+    background: none;
+    border: 1px solid #f3045c;
+    margin-top: 18px;
+    font-size: 17px;
+    padding: 9px 21px;
+    cursor: pointer;
+    margin-right: 8px;
+    
+}
+
+.provides .but button{
+    border-radius: 30px;
+    color: #fff;
+    background-color: #f3045c;
+    border: none;
+    margin-top: 18px;
+    font-size: 17px;
+    padding: 9px 21px;
+    cursor: pointer;
+}
+
+/* end this div */
+/* start new div */
+
+.types{
+    background-color: #11132f;
+    margin-top: 40px;
+    padding: 20px;
+    color: #fff;
+}
+
+.types h1{
+    text-align: center;
+    font-size: 34px;
+    padding-top: 10px;
+}
+
+.types .box2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.types .box2 i{
+    background-color: #3a3c56;
+    padding: 12px 36px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+.types .box2 i:hover{
+    background-color: orangered;
+}
+
+/* end this div */
+/* start this div */
+
+footer{
+    background-color: black;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 0px 0px 6% 6%;
+}
+
+footer p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer button{
+    border-radius: 30px;
+    color: #fff;
+    background-color: #f3045c;
+    border: none;
+    margin-top: 18px;
+    font-size: 17px;
+    padding: 9px 21px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

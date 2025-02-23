@@ -1,0 +1,44 @@
+//Placeholder for the next divs.
+%box-specification{
+  background-color: $black-color2;
+  margin: 30px 0px;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.reviews{
+  background-color: $med-black;
+  color: $white-color;
+  overflow: hidden;
+  .top-box{
+    @extend %box-specification;
+  }
+  .review-content .top-box .left img{
+    border-radius: 50%;
+    max-width: 98px;
+    margin-right: 30px;
+  }
+  .right{
+    p{
+      margin-bottom: 3px;
+    }
+    button{
+      border-radius: 20px;
+    }
+  }
+}
+
+/* Start media for section reviews */
+@media(max-width: 767px){                   /* small screen rules */
+  .reviews .top-box{
+    .right{
+      p{
+        font-size: 13px;
+      }
+      button{
+        font-size: 11px;
+      }
+    }
+  }
+}
+/* End media for section reviews */

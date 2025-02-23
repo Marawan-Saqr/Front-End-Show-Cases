@@ -1,0 +1,49 @@
+.courses{
+  overflow: hidden;
+  background-color: $move-color;
+  .title h5{
+    color: $gold-color;
+  }
+  h2{
+    position: relative;
+    color: $white-color;
+  }
+  h2::after{
+    content: "";
+    position: absolute;
+    width: 14%;
+    height: 2px;
+    background-color: gold;
+    top: 51px;
+    left: 490px;
+}
+  .box{
+    background-color: $mover-color;
+    padding: 20px;
+    border-radius: if($rounded, 5px, null);
+    img{
+      height: 175px;
+      width: 100%;
+      border: 2px solid $gold-color;
+    }
+    h4{
+      color: $gold-color;
+    }
+    p{
+      color: $white-color;
+    }
+    button{
+      color: $black-color;
+      background-color: $gold-color;
+      border: none;
+    }
+  }
+}
+
+/* Start media for section courses */
+@media(min-width: 768px) and (max-width: 991px){                 /* medium screen rules */
+  .courses .box{
+    margin-bottom: 10px;
+  }
+}
+/* End media for section courses */

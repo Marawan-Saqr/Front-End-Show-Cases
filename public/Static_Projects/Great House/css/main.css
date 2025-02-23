@@ -1,0 +1,128 @@
+/* Start Section landing */
+.landing {
+  background-image: url("../assets/Images/Cover.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 460px;
+  position: relative;
+}
+
+.landing::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+}
+
+.landing .content {
+  position: relative;
+  padding-top: 25%;
+  z-index: 4;
+  color: #fff;
+}
+
+.landing .content button{
+  border: none;
+  padding: 5px 25px;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.landing .content button:nth-child(3){
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.landing .content button:hover{
+  background-color: #fff;
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s;
+  color: black !important;
+}
+/* End Section landing */
+
+/* Start Section sectors */
+.sectors button{
+  border: none;
+  padding: 5px 25px;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.sectors button:hover{
+  background-color: #fff;
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s;
+  color: black !important;
+}
+/* Start Media For Section sectors */
+@media(max-width: 767px) {
+  .sectors .box {
+    margin-bottom: 90px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+  .sectors .box {
+    margin-bottom: 50px;
+  }
+}
+/* End Media For Section sectors */
+/* End Section sectors */
+
+/* Start Section featured */
+.featured{
+  background-image: url("../assets/Images/featured.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 460px;
+  position: relative;
+}
+
+.featured h2 {
+  position: relative;
+  z-index: 3000;
+}
+
+.featured::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.featured .row{
+  background-color: rgb(201 213 213);
+}
+
+.featured .box{
+  position: relative;
+  z-index: 2000;
+  color: #fff;
+}
+
+.featured .col-lg-6 {
+  flex: 0 0 auto;
+  width: 50%;
+  padding: 0px;
+}
+/* End Section featured */
+
+/* Start Section News */
+.news .right-big .right .img-fluid,
+.news .left-big .left .img-fluid
+{
+  max-width: 40%;
+}
+/* End Section News */
+

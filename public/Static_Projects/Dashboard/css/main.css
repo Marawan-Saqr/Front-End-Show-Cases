@@ -1,0 +1,147 @@
+body{
+  background-color: #d6e2ed;
+}
+
+.dashboard .container{
+  max-width: 97%;
+}
+
+.dashboard .container .side-navbar{
+  background-color: #e5e5e5;
+  padding: 10px;
+}
+
+.dashboard .container .side-navbar ul{
+  list-style-type: none;
+  font-weight: bold;
+  line-height: 2.1;
+  padding-left: 5px;
+}
+
+.dashboard .container .side-navbar ul li{
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 8px 0px;
+  padding: 5px;
+}
+
+.dashboard .container .side-navbar ul li:hover{
+  background-color: #b6b6b6;
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+
+.box-one .top-half {
+  background-color: #adadad42;
+  padding: 10px;
+  border-radius: 5px 5px 0px 0px;
+  margin: 20px 0px 0px 0px;
+}
+
+.box-one .top-half .right{
+  text-align: center;
+}
+
+.box-one .top-half .right img {
+  max-width: 69%;
+}
+
+.box-one .down-half{
+  background-color: #f7f7f78f;
+  padding: 39px 10px 22px 10px;
+  padding-top: 39px;
+  padding-right: 10px;
+  padding-bottom: 22px;
+  padding-left: 10px;
+  border-radius: 0px 0px 5px 5px;
+  text-align: center;
+}
+
+.box-one .down-half .button-click button{
+  color: #fff;
+}
+
+.box-two{
+  margin-top: 40px;
+  background-color: #f7f7f78f;
+  padding: 13px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.box-two .top-one .left,
+.box-two .top-one .right
+{
+  text-align: center;
+  border: 1px solid black;
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px 20px;
+  background-color: #a3a3a34d;
+  margin: 10px;
+  width: 33%;
+  height: 87px;
+}
+
+.box-two .top-two .left,
+.box-two .top-two .right
+{
+  text-align: center;
+  border: 1px solid black;
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px 20px;
+  background-color: #a3a3a34d;
+  margin: 10px;
+  width: 33%;
+  height: 87px;
+}
+
+.second-line .box-one{
+  background-color: #adadad42;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px 0px 0px 0px;
+}
+
+.second-line .box-one input,
+.second-line .box-one textarea
+{
+  display: block;
+  width: 100%;
+  margin: 5px 0px;
+  border: none;
+  border-radius: 13px;
+  padding: 8px 10px;
+  background-color: #bdbdbd;
+  color: #fff;
+}
+
+.second-line .box-one textarea{
+  height: 137px;
+}
+
+.second-line .box-one .butt{
+  text-align: right;
+  color: #fff;
+}
+
+.second-line .box-one .butt button{
+  color: #fff;
+}
+
+.second-line .box-two .left img{
+  max-width: 42%;
+  margin-right: 5px;
+}
+
+.second-line .right p{
+  background-color: #0a0a0a;
+  border-radius: 5px;
+  padding: 2px;
+  text-align: center;
+  color: #fff;
+}
+
+.second-line .box-two .row{
+  padding: 3px;
+}
