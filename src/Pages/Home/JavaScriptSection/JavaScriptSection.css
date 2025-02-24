@@ -17,6 +17,18 @@
   box-shadow: 1px 1px 10px 1px black;
 }
 
+@media (max-width: 767px) {
+  .javascript-projects .right {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .javascript-projects .right {
+    margin-top: 30px;
+  }
+}
+
 @keyframes floatUpDown {
 
   0%,
