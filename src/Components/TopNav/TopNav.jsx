@@ -35,26 +35,10 @@ const TopNav = () => {
                 <NavDropdown.Item as={Link} to="/projects-page/javascript-projects">
                   <i className="fa-brands fa-square-js"></i> Javascript Projects
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/angular-projects">
-                  <i className="fa-brands fa-angular"></i> Angular Projects
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/react-projects">
-                  <i className="fa-brands fa-react"></i> React Projects
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/cpp-projects">
-                  <i className="fa-solid fa-c"></i> C++ Projects
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/oop-projects">
-                  <i className="fa-solid fa-diagram-project"></i> OOP Projects
-                </NavDropdown.Item>
               </NavDropdown>
-              <NavLink to="/portfolio" className="nav-link">
+              <a target="_blank" className="nav-link" href="https://my-portfolio-kohl-seven-11.vercel.app/">
                 <i className="fa-solid fa-user"></i> Portfolio
-              </NavLink>
+              </a>
               <Nav.Link onClick={()=> changeTheme()}>
                 {theme === "darkMode" ? (<i class="fa-solid fa-sun"></i>) : (<i class="fa-solid fa-moon"></i>)}
               </Nav.Link>

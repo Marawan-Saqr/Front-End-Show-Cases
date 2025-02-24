@@ -274,9 +274,105 @@ export const static_projects = [
 
 export const javaScriptProjects = [
   {
-    img: "/images/amazon-smile.png",
-    title: "Amazon Smile",
-    description: "Landing Page For Amazon Smile",
-    destination: "/Static_Projects/Amazon-Smile/index.html"
+    img: "/images/calculator.png",
+    title: "Calculator",
+    description: "beautiful calculator with background animations",
+    destination: "/Js-Projects/Calculator/index.html"
+  },
+  {
+    img: "/images/collect-word-game.png",
+    title: "Collect Word Game",
+    description: "game that you collect characters of word to win",
+    destination: "/Js-Projects/Collect-Word-Game/index.html"
+  },
+  {
+    img: "/images/contact-form.png",
+    title: "Contact Form",
+    description: "simple form that take user data inputs",
+    destination: "/Js-Projects/Contact-Form/index.html"
+  },
+  {
+    img: "/images/create-classes-from-inputs.png",
+    title: "Create Classes Inputs",
+    description: "add classes from inputs and generate divs",
+    destination: "/Js-Projects/Create-Classes-From-Inputs/index.html"
+  },
+  {
+    img: "/images/create-navigationbar.png",
+    title: "Create Navigationbar",
+    description: "create navigation bar from burger icon",
+    destination: "/Js-Projects/Create-Navigationbar/index.html"
+  },
+  {
+    img: "/images/dollar-today.png",
+    title: "Dollar Today",
+    description: "website show how much dollar today",
+    destination: "/Js-Projects/Dollar/index.html"
+  },
+  {
+    img: "/images/generate-divs.png",
+    title: "Generate Divs",
+    description: "form to generate divs from it's inputs",
+    destination: "/Js-Projects/Generate-Divs/index.html"
+  },
+  {
+    img: "/images/generate-random-serial-number.png",
+    title: "Random Serial Number",
+    description: "generate random serial numbers",
+    destination: "/Js-Projects/Generate-Random-Serial-Number/index.html"
+  },
+  {
+    img: "/images/my-todo-app.png",
+    title: "My Todo App",
+    description: "todo app to add/remove tasks with purple design",
+    destination: "/Js-Projects/My-Todo-List/index.html"
+  },
+  {
+    img: "/images/pomodoro-technique.png",
+    title: "Pomodoro App",
+    description: "Pomodoro App with 25 min work and 5 min rest",
+    destination: "/Js-Projects/Pomodoro-App/index.html"
+  },
+  {
+    img: "/images/quiz-game.png",
+    title: "Quiz Game",
+    description: "quiz game with three difficulties",
+    destination: "/Js-Projects/Quiz-Game/index.html"
+  },
+  {
+    img: "/images/random-words-game.png",
+    title: "Random Words Game",
+    description: "speed random game words with time",
+    destination: "/Js-Projects/Random-Words-Game/index.html"
+  },
+  {
+    img: "/images/select-object.png",
+    title: "Select Object",
+    description: "select object in box and see it's name",
+    destination: "/Js-Projects/Select-Object/index.html"
+  },
+  {
+    img: "/images/tic-tac-toe-game.png",
+    title: "Tic-Tac-Toe-Game",
+    description: "Tic-Tac-Toe-Game with beautiful design",
+    destination: "/Js-Projects/Tic-Tac-Toe-Game/index.html"
+  },
+  {
+    img: "/images/to-do-app-with-local-storage.png",
+    title: "Todo App With Storage",
+    description: "todo app with local storage add/delete",
+    destination: "/Js-Projects/To-Do-App-with-local-storage/index.html"
+  },
+  {
+    img: "/images/tours.png",
+    title: "Tours",
+    description: "tours website with beautiful animations",
+    destination: "/Js-Projects/tours/index.html"
+  },
+  {
+    img: "/images/typing-speed-game.png",
+    title: "Typing Speed Game",
+    description: "typing speed game with time limit",
+    destination: "/Js-Projects/Typing-Speed-Game/index.html"
   },
 ]

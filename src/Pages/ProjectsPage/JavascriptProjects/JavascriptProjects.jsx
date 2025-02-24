@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { static_projects } from '../../../data.js';
+import { javaScriptProjects } from '../../../data.js';
 import { Container, Row, Col } from 'react-bootstrap';
 import './JavascriptProjects.css';
 
@@ -7,12 +7,12 @@ import './JavascriptProjects.css';
 const JavascriptProjects = () => {
 
   // Component States
-  const [projects] = useState(static_projects);
+  const [projects] = useState(javaScriptProjects);
 
   return (
     <div className="static-projects-card mt-5 mb-5">
       <Container>
-        <h2 className='text-center'><i className="fa-brands fa-html5"></i> JavaScript Projects</h2>
+        <h2 className='text-center'><i className="fa-brands fa-square-js"></i> JavaScript Projects</h2>
         <Row>
           {projects.map((project, index) => (
             <Col lg={3} key={index}>

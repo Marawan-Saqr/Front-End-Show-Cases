@@ -1,4 +1,3 @@
-import React from 'react';
 import StaticProjectsSection from './StaticProjectsSection/StaticProjectsSection.jsx';
 import JavaScriptSection from './JavaScriptSection/JavaScriptSection.jsx';
 
