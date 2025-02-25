@@ -36,7 +36,7 @@ const TopNav = () => {
                   <i className="fa-brands fa-square-js"></i> Javascript Projects
                 </NavDropdown.Item>
               </NavDropdown>
-              <a target="_blank" className="nav-link" href="https://my-portfolio-kohl-seven-11.vercel.app/">
+              <a target="_blank" className="nav-link" href="https://my-portfolio-nu-livid-87.vercel.app/">
                 <i className="fa-solid fa-user"></i> Portfolio
               </a>
               <Nav.Link onClick={()=> changeTheme()}>
