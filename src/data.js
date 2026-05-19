@@ -270,7 +270,7 @@ export const static_projects = [
     destination: "/Static_Projects/Widget-Login/index.html"
   },
   {
-    img: "/images/Elakeel-resturant",
+    img: "/images/Elakeel-resturant.png",
     title: "Elakeel Resturant",
     description: "resturant with good anي delicious meals and seat reservations.",
     destination: "/Static_Projects/Elakeel-Resturant/index.html"
