@@ -269,6 +269,12 @@ export const static_projects = [
     description: "widget login and signup in one form",
     destination: "/Static_Projects/Widget-Login/index.html"
   },
+  {
+    img: "/images/Elakeel-resturant",
+    title: "Elakeel Resturant",
+    description: "resturant with good anي delicious meals and seat reservations.",
+    destination: "/Static_Projects/Elakeel-Resturant/index.html"
+  },
 ];
 
 
