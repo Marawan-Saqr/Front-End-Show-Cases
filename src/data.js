@@ -275,6 +275,12 @@ export const static_projects = [
     description: "resturant with good anي delicious meals and seat reservations.",
     destination: "/Static_Projects/Elakeel-Resturant/index.html"
   },
+  {
+    img: "/images/quoteble.png",
+    title: "Quoteble",
+    description: "Simple Design For Quoates Website.",
+    destination: "/Static_Projects/Quoteble/index.html"
+  },
 ];
 
 
