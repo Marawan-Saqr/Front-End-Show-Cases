@@ -115,7 +115,7 @@ export const javaScriptProjects = [
     img: "/images/calculator.png",
     title: "Calculator",
     description: "beautiful calculator with background animations",
-    destination: "/Js-Projects/Calculator/index.html"
+    destination: "/Js-Projects/calculator/index.html"
   },
   {
     img: "/images/collect-word-game.png",
