@@ -124,18 +124,6 @@ export const javaScriptProjects = [
     destination: "/Js-Projects/Collect-Word-Game/index.html"
   },
   {
-    img: "/images/create-classes-from-inputs.png",
-    title: "Create Classes Inputs",
-    description: "add classes from inputs and generate divs",
-    destination: "/Js-Projects/Create-Classes-From-Inputs/index.html"
-  },
-  {
-    img: "/images/create-navigationbar.png",
-    title: "Create Navigationbar",
-    description: "create navigation bar from burger icon",
-    destination: "/Js-Projects/Create-Navigationbar/index.html"
-  },
-  {
     img: "/images/my-todo-app.png",
     title: "My Todo App",
     description: "todo app to add/remove tasks with purple design",
