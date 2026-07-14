@@ -98,7 +98,7 @@ export const static_projects = [
   {
     img: "/images/Elakeel-resturant.png",
     title: "Elakeel Resturant",
-    description: "resturant with good anي delicious meals and seat reservations.",
+    description: "resturant with good and delicious meals and seat reservations.",
     destination: "/Static_Projects/Elakeel-Resturant/index.html"
   },
   {
@@ -121,48 +121,48 @@ export const javaScriptProjects = [
     img: "/images/collect-word-game.png",
     title: "Collect Word Game",
     description: "game that you collect characters of word to win",
-    destination: "/Js-Projects/Collect-Word-Game/index.html"
+    destination: "/Js_Projects/Collect-Word-Game/index.html"
   },
   {
     img: "/images/my-todo-app.png",
     title: "My Todo App",
     description: "todo app to add/remove tasks with purple design",
-    destination: "/Js-Projects/My-Todo-List/index.html"
+    destination: "/Js_Projects/My-Todo-List/index.html"
   },
   {
     img: "/images/pomodoro-technique.png",
     title: "Pomodoro App",
     description: "Pomodoro App with 25 min work and 5 min rest",
-    destination: "/Js-Projects/Pomodoro-App/index.html"
+    destination: "/Js_Projects/Pomodoro-App/index.html"
   },
   {
     img: "/images/quiz-game.png",
     title: "Quiz Game",
     description: "quiz game with three difficulties",
-    destination: "/Js-Projects/Quiz-Game/index.html"
+    destination: "/Js_Projects/Quiz-Game/index.html"
   },
   {
     img: "/images/random-words-game.png",
     title: "Random Words Game",
     description: "speed random game words with time",
-    destination: "/Js-Projects/Random-Words-Game/index.html"
+    destination: "/Js_Projects/Random-Words-Game/index.html"
   },
   {
     img: "/images/tic-tac-toe-game.png",
     title: "Tic-Tac-Toe-Game",
     description: "Tic-Tac-Toe-Game with beautiful design",
-    destination: "/Js-Projects/Tic-Tac-Toe-Game/index.html"
+    destination: "/Js_Projects/Tic-Tac-Toe-Game/index.html"
   },
   {
     img: "/images/tours.png",
     title: "Tours",
     description: "tours website with beautiful animations",
-    destination: "/Js-Projects/tours/index.html"
+    destination: "/Js_Projects/tours/index.html"
   },
   {
     img: "/images/typing-speed-game.png",
     title: "Typing Speed Game",
     description: "typing speed game with time limit",
-    destination: "/Js-Projects/Typing-Speed-Game/index.html"
+    destination: "/Js_Projects/Typing-Speed-Game/index.html"
   },
 ]
