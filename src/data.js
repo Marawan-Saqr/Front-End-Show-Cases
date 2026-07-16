@@ -38,7 +38,7 @@ export const static_projects = [
   {
     img: "/images/quoteble.png",
     title: "Quoteble",
-    description: "Simple Design For Quoates Website With Relax Colors.",
+    description: "Simple Design For Quoates Website With Relax Colors",
     destination: "/Static_Projects/Quoteble/index.html"
   },
   {
@@ -54,9 +54,15 @@ export const static_projects = [
     destination: "/Static_Projects/Coding/index.html"
   },
   {
+    img: "/images/travel-love.png",
+    title: "Travel Love",
+    description: "travels website with book to each travel",
+    destination: "/Static_Projects/Travel-love/index.html"
+  },
+  {
     img: "/images/Elakeel-resturant.png",
     title: "Elakeel Resturant",
-    description: "resturant with good and delicious meals and seat reservations.",
+    description: "resturant with good and delicious meals and seat reservations",
     destination: "/Static_Projects/Elakeel-Resturant/index.html"
   },
   {
@@ -78,12 +84,6 @@ export const static_projects = [
     destination: "/Static_Projects/Amazon-Smile/index.html"
   },
   {
-    img: "/images/animated-form.png",
-    title: "Animated Form",
-    description: "Basic Form With high quality image",
-    destination: "/Static_Projects/Animated-Form/index.html"
-  },
-  {
     img: "/images/cristiano-ronaldo.png",
     title: "Cristiano Ronaldo",
     description: "Basic Website  Of cristiano ronaldo profile and skills",
@@ -96,16 +96,16 @@ export const static_projects = [
     destination: "/Static_Projects/King-Of-Food/index.html"
   },
   {
+    img: "/images/animated-form.png",
+    title: "Animated Form",
+    description: "Basic Form With high quality image",
+    destination: "/Static_Projects/Animated-Form/index.html"
+  },
+  {
     img: "/images/student-form.png",
     title: "Student Form",
     description: "simple form when login route to another page",
     destination: "/Static_Projects/Student-Form/index.html"
-  },
-  {
-    img: "/images/travel-love.png",
-    title: "Travel Love",
-    description: "travels website with book to each travel",
-    destination: "/Static_Projects/Travel-love/index.html"
   },
 ];
 
