@@ -98,7 +98,7 @@ export const static_projects = [
   {
     img: "/images/animated-form.png",
     title: "Animated Form",
-    description: "Basic Form With high quality image",
+    description: "Basic Website Form With high quality image",
     destination: "/Static_Projects/Animated-Form/index.html"
   },
   {
