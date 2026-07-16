@@ -1,5 +1,59 @@
 export const static_projects = [
   {
+    img: "/images/bondi.png",
+    title: "Bondi",
+    description: "beautifull design show bondi technology website services",
+    destination: "/Static_Projects/Bondi/index.html"
+  },
+  {
+    img: "/images/gamer.png",
+    title: "Gamer",
+    description: "games website that represent games and buy from it",
+    destination: "/Static_Projects/Gamer/index.html"
+  },
+  {
+    img: "/images/my-portfolio2024.png",
+    title: "My Portfolio 2024",
+    description: "My Portfolio 2024 With Projects",
+    destination: "/Static_Projects/My-Portfolio-2024/index.html"
+  },
+  {
+    img: "/images/godaddy.png",
+    title: "Go Daddy",
+    description: "simulate go daddy website with business design",
+    destination: "/Static_Projects/Godaddy/index.html"
+  },
+  {
+    img: "/images/ubisoft-store.png",
+    title: "Ubisoft Store",
+    description: "simulate ubisoft store website with beautifull design",
+    destination: "/Static_Projects/Ubisoft-Store/index.html"
+  },
+  {
+    img: "/images/video-graph.png",
+    title: "Video Graph",
+    description: "video grpaher portfolio with beautiful design",
+    destination: "/Static_Projects/VideoGraph/index.html"
+  },
+  {
+    img: "/images/quoteble.png",
+    title: "Quoteble",
+    description: "Simple Design For Quoates Website.",
+    destination: "/Static_Projects/Quoteble/index.html"
+  },
+  {
+    img: "/images/kids-world.png",
+    title: "Kids World",
+    description: "beautiful world for kids with colorize designs",
+    destination: "/Static_Projects/Kids-World/index.html"
+  },
+  {
+    img: "/images/Elakeel-resturant.png",
+    title: "Elakeel Resturant",
+    description: "resturant with good and delicious meals and seat reservations.",
+    destination: "/Static_Projects/Elakeel-Resturant/index.html"
+  },
+  {
     img: "/images/amazon-smile.png",
     title: "Amazon Smile",
     description: "Landing Page For Amazon Smile",
@@ -10,12 +64,6 @@ export const static_projects = [
     title: "Animated Form",
     description: "Basic Form With high quality image",
     destination: "/Static_Projects/Animated-Form/index.html"
-  },
-  {
-    img: "/images/bondi.png",
-    title: "Bondi",
-    description: "beautifull design show bondi technology website services",
-    destination: "/Static_Projects/Bondi/index.html"
   },
   {
     img: "/images/coding.png",
@@ -41,36 +89,14 @@ export const static_projects = [
     description: "simulate fifa20 system with smooth transitions",
     destination: "/Static_Projects/FIFA20-System/index.html"
   },
-  {
-    img: "/images/gamer.png",
-    title: "Gamer",
-    description: "games website that represent games and buy from it",
-    destination: "/Static_Projects/Gamer/index.html"
-  },
-  {
-    img: "/images/godaddy.png",
-    title: "Go Daddy",
-    description: "simulate go daddy website with business design",
-    destination: "/Static_Projects/Godaddy/index.html"
-  },
-  {
-    img: "/images/kids-world.png",
-    title: "Kids World",
-    description: "beautiful world for kids with colorize designs",
-    destination: "/Static_Projects/Kids-World/index.html"
-  },
+  
   {
     img: "/images/king-of-food.png",
     title: "King Of Food",
     description: "food website to order meals and show discounts",
     destination: "/Static_Projects/King-Of-Food/index.html"
   },
-  {
-    img: "/images/my-portfolio2024.png",
-    title: "My Portfolio 2024",
-    description: "My Portfolio 2024 With Projects",
-    destination: "/Static_Projects/My-Portfolio-2024/index.html"
-  },
+  
   {
     img: "/images/student-form.png",
     title: "Student Form",
@@ -83,30 +109,9 @@ export const static_projects = [
     description: "travels website with book to each travel",
     destination: "/Static_Projects/Travel-love/index.html"
   },
-  {
-    img: "/images/ubisoft-store.png",
-    title: "Ubisoft Store",
-    description: "simulate ubisoft store website with beautifull design",
-    destination: "/Static_Projects/Ubisoft-Store/index.html"
-  },
-  {
-    img: "/images/video-graph.png",
-    title: "Video Graph",
-    description: "video grpaher portfolio with beautiful design",
-    destination: "/Static_Projects/VideoGraph/index.html"
-  },
-  {
-    img: "/images/Elakeel-resturant.png",
-    title: "Elakeel Resturant",
-    description: "resturant with good and delicious meals and seat reservations.",
-    destination: "/Static_Projects/Elakeel-Resturant/index.html"
-  },
-  {
-    img: "/images/quoteble.png",
-    title: "Quoteble",
-    description: "Simple Design For Quoates Website.",
-    destination: "/Static_Projects/Quoteble/index.html"
-  },
+  
+  
+  
 ];
 
 
