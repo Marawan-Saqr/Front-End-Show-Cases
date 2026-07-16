@@ -1,5 +1,11 @@
 export const static_projects = [
   {
+    img: "/images/American-Academy-Egypt-Branch",
+    title: "American Academy Egypt Branch",
+    description: "Website For Egypt Academy Courses",
+    destination: "https://www.americanacademyeg.com/index.html"
+  },
+  {
     img: "/images/bondi.png",
     title: "Bondi",
     description: "beautifull design show bondi technology website services",
