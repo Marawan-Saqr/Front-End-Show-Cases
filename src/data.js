@@ -1,6 +1,6 @@
 export const static_projects = [
   {
-    img: "/images/American-Academy-Egypt-Branch",
+    img: "/images/American-Academy-Egypt-Branch.png",
     title: "American Academy Egypt Branch",
     description: "Website For Egypt Academy Courses",
     destination: "https://www.americanacademyeg.com/index.html"
