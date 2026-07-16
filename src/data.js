@@ -14,7 +14,7 @@ export const static_projects = [
   {
     img: "/images/my-portfolio2024.png",
     title: "My Portfolio 2024",
-    description: "My Portfolio 2024 With Projects",
+    description: "My Portfolio 2024 With Projects And Animation Design",
     destination: "/Static_Projects/My-Portfolio-2024/index.html"
   },
   {
@@ -38,7 +38,7 @@ export const static_projects = [
   {
     img: "/images/quoteble.png",
     title: "Quoteble",
-    description: "Simple Design For Quoates Website.",
+    description: "Simple Design For Quoates Website With Relax Colors.",
     destination: "/Static_Projects/Quoteble/index.html"
   },
   {
@@ -48,15 +48,33 @@ export const static_projects = [
     destination: "/Static_Projects/Kids-World/index.html"
   },
   {
+    img: "/images/coding.png",
+    title: "Coding",
+    description: "coding website with courses and rates",
+    destination: "/Static_Projects/Coding/index.html"
+  },
+  {
     img: "/images/Elakeel-resturant.png",
     title: "Elakeel Resturant",
     description: "resturant with good and delicious meals and seat reservations.",
     destination: "/Static_Projects/Elakeel-Resturant/index.html"
   },
   {
+    img: "/images/fifa20-system.png",
+    title: "FIFA20 System",
+    description: "simulate fifa20 system with smooth transitions",
+    destination: "/Static_Projects/FIFA20-System/index.html"
+  },
+  {
+    img: "/images/eslamy.png",
+    title: "Eslamy",
+    description: "Eslamy websites with islamic categories",
+    destination: "/Static_Projects/Eslamy/index.html"
+  },
+  {
     img: "/images/amazon-smile.png",
     title: "Amazon Smile",
-    description: "Landing Page For Amazon Smile",
+    description: "Beautifull Landing Page For Amazon Smile Website",
     destination: "/Static_Projects/Amazon-Smile/index.html"
   },
   {
@@ -66,37 +84,17 @@ export const static_projects = [
     destination: "/Static_Projects/Animated-Form/index.html"
   },
   {
-    img: "/images/coding.png",
-    title: "Coding",
-    description: "coding website with courses and rates",
-    destination: "/Static_Projects/Coding/index.html"
-  },
-  {
     img: "/images/cristiano-ronaldo.png",
     title: "Cristiano Ronaldo",
-    description: "cristiano ronaldo profile and skills",
+    description: "Basic Website  Of cristiano ronaldo profile and skills",
     destination: "/Static_Projects/Cristiano-Ronaldo/index.html"
   },
-  {
-    img: "/images/eslamy.png",
-    title: "Eslamy",
-    description: "Eslamy websites with islamic categories",
-    destination: "/Static_Projects/Eslamy/index.html"
-  },
-  {
-    img: "/images/fifa20-system.png",
-    title: "FIFA20 System",
-    description: "simulate fifa20 system with smooth transitions",
-    destination: "/Static_Projects/FIFA20-System/index.html"
-  },
-  
   {
     img: "/images/king-of-food.png",
     title: "King Of Food",
     description: "food website to order meals and show discounts",
     destination: "/Static_Projects/King-Of-Food/index.html"
   },
-  
   {
     img: "/images/student-form.png",
     title: "Student Form",
@@ -109,9 +107,6 @@ export const static_projects = [
     description: "travels website with book to each travel",
     destination: "/Static_Projects/Travel-love/index.html"
   },
-  
-  
-  
 ];
 
 
