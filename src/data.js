@@ -66,7 +66,7 @@ export const static_projects = [
     destination: "/Static_Projects/Travel-love/index.html"
   },
   {
-    img: "/images/shorten_link",
+    img: "/images/shorten_link.png",
     title: "Shorten Link",
     description: "Design Of Website For Shorten Links With beautifull colors",
     destination: "/Static_Projects/Shorten_links/index.html"
