@@ -66,10 +66,10 @@ export const static_projects = [
     destination: "/Static_Projects/Travel-love/index.html"
   },
   {
-    img: "/images/Elakeel-resturant.png",
-    title: "Elakeel Resturant",
-    description: "resturant with good and delicious meals and seat reservations",
-    destination: "/Static_Projects/Elakeel-Resturant/index.html"
+    img: "/images/shorten_link",
+    title: "Shorten Link",
+    description: "Design Of Website For Shorten Links With beautifull colors",
+    destination: "/Static_Projects/Shorten_links/index.html"
   },
   {
     img: "/images/fifa20-system.png",
